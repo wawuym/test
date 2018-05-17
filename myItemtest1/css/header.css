@@ -1,0 +1,156 @@
+.header{
+	width:100%;
+	height: 115px;
+}
+.header_top{
+	width: 1200px;
+	height: 65px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding-top: 25px;	
+}
+
+.logo{
+	width:300px;
+}
+.right{
+	width: 900px;
+}
+.logo a{
+	width:115px;
+	height: 50px;
+	display: inline-block;
+	background: url(../img/icon201706.png) -662px 0px no-repeat;	
+}
+.branch_menu{
+	height:50px;
+	width:350px;
+	position: relative;
+}
+/*语言选择处向上和向下箭头*/         /*
+                          * 定义两个箭头隐藏和显示或者将原箭头旋转180度
+                          * */
+.down{
+	width: 12px;   
+	height: 9px;
+	background: url(../img/icon201706.png) -357px -770px no-repeat;
+	position: absolute;
+	top: 7px;
+	left: 184px;
+}
+.up{
+	width: 12px;
+	height: 9px;
+	background: url(../img/icon201706.png) -357px -786px no-repeat;
+	display: none;
+	position: absolute;
+	top: 7px;
+	left: 184px;
+}
+.languages:hover .down{   
+	display: none;
+}
+.languages:hover .up{
+	display: block;
+}
+.branch_menu .choose_lan{
+	position: absolute;
+	top: 20px;
+	left: 127px;
+	width: 51px;
+	text-align: center;
+	display: none;
+}
+.languages:hover+.choose_lan,.choose_lan:hover{
+	display: block;
+	border:1px dashed grey;
+	border-top: none;
+}
+
+
+.right>span{
+	width:180px;
+	height:42px;
+	display: block;
+}
+
+i{
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	float: left;
+	
+}
+.con1{
+	background: url(../img/icon201706.png) -125px -762px no-repeat;
+}
+.con2{
+	background: url(../img/icon201706.png) 0px -762px no-repeat;
+}
+.con3{
+	background: url(../img/icon201706.png) -42px -762px no-repeat;
+}
+.right em{
+	display: block;
+	width: 130px;
+	font-size: 15px;
+	margin-left: 55px;
+	height:20px;
+	font-style: normal;
+}
+.cc3 em{
+	color: green;
+}
+.cc2 em{
+	color: #FF6C67;
+}
+.cc1 em{
+	color: #999999;
+}
+.phone{
+	color: blue !important;
+}
+.nav_list{
+	min-width: 1000px;
+	height:40px;
+	background: #2064c8;
+	/*box-sizing: border-box;*/
+	/*margin-top: 20px;*/
+}
+.nav_box{
+	width: 1200px;
+	height:40px;
+	margin: 0 auto;
+	
+}
+.nav li a,.register a{
+	color: white;
+	font-size: 15px;
+	display: inline-block;
+	
+}
+.nav li a{
+	box-sizing: border-box;
+	padding: 0 10px ;
+}
+.nav li{
+	height:37px;
+	line-height: 40px;
+	float: left;
+	border-right: 1px solid #3774CE;
+}
+.nav li a:hover{
+	background: #0053ac;
+}
+.on,.register{
+	background: #003679;
+}
+.register{
+	width:150px;
+	height:40px;
+	text-align: center;
+}
+.register span{
+	display: inline-block;
+	line-height: 40px;
+}

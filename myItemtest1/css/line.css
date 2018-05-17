@@ -1,0 +1,178 @@
+.choose_line{
+	min-width: 1200px;
+	height:300px;
+	background: #F5F5F5;
+	box-sizing: border-box;
+	padding-top: 50px;
+}
+.choose_tab{
+	width: 1200px;
+	height:245px;
+	margin: 0 auto;
+	background: white;
+	border:1px solid #CCCCCC;
+}
+.line{
+	height:40px;
+	line-height: 40px;
+	border-bottom: 1px dotted #CCCCCC;
+}
+.line a{
+	display: inline-block;
+	margin-right: 15px;
+	color: black;
+}
+.line form{
+	width:1100px;
+}
+.much_line{
+	box-sizing: border-box;
+	padding-left: 25px;
+}
+.line form{
+	font-size: 13px;
+}
+.line form input{
+	background: orange;
+}
+.box{
+	display: inline-block;
+	margin:0 20px;
+	cursor: pointer;
+}
+.box input{
+	outline: none;
+	border:1px solid #CCCCCC;
+	cursor: pointer;
+}
+.box label{
+	cursor: pointer;
+}
+.product_list{
+	min-width: 1200px;
+	margin: 0 auto;
+
+	background:#F5F5F5 ;
+	box-sizing: border-box;
+	padding: 50px 0 0;
+	zoom:1;
+}
+/*清楚浮动*/
+.product_list::after,.proLeft::after,.tj::after{
+	content: ".";
+	height: 0;
+	visibility: hidden;
+	display: block;
+	clear: both;
+}
+.pro_list{
+	width:950px;
+	height:auto;
+	margin:0 auto;
+	float: left;
+	
+}
+.proLeft{
+	width:1200px;
+	height:auto;
+	margin:0 auto;
+	/*overflow: hidden;*/ 
+}
+.produce_section{
+	width:950px;
+	height: 150px;
+	background:white ;
+	margin: 15px auto;
+	box-sizing: border-box;
+	padding-top:25px;
+	box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.09);
+}
+.product_left img{
+	width:150px;
+	height:100px;
+	display: inline-block;
+	margin:0 25px;
+
+}
+.product_item p{
+	margin:10px 0px;
+	font-size: 14px;
+	color: grey;
+}
+.price{
+	color:red;
+	font-size: 20px;
+}
+.product_info input{
+	width: 100px;
+	height:40px;
+	background: orangered;
+	color: white;
+	font-size: 20px;
+	outline: none;
+	border: none;
+}
+.proRightList{
+	width:230px;
+	/*height:300px;*/
+	background-color: white;
+	float: right;
+	margin-top:15px;
+	/*padding-top: 25px;*/
+}
+.proRight img{
+	width:90px;
+	height:60px;
+	display: inline-block;
+	float: left;
+	margin-left:7px;
+}
+.proRight p{
+	overflow: hidden;
+	width:130px;
+	height:32px;
+	float: right;
+	font-size: 12px;
+}
+.proRight span{
+	display: inline-block;
+	width:100px;
+	height:17.5px;
+	color: gray;
+	font-size: 12px;
+	float: right;
+	margin-top:10px;
+}
+.proRight b{
+	color: orange;
+	font-size: 12px;
+}
+.tj{
+	margin:20px auto;
+}
+.leaf{
+	width: 700px;
+	height:100px;
+	/*background: red;*/
+	text-align: center;
+	/*margin:20px 25%;*/
+	margin:20px auto;
+
+}
+.getLeaf{
+	width:100px;
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+	background: #BEE9F0;
+	float: left;
+	text-align: center;
+	margin:0 20px;
+	
+}
+.getLeaf span{
+	display: inline-block;
+	width:100px;
+	height:30px;
+	line-height: 30px;
+}

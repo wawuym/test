@@ -1,0 +1,395 @@
+/*首页中间内容部分*/
+.side{
+	width: 1200px;
+	height:30px;
+	padding: 25px;
+}
+.side_ss{
+	width:250px;
+	height:30px;
+	border:1px solid #CCCCCC;
+	border-radius: 50px;
+	text-align: center;
+	color: #555555;
+	font-size: 15px;
+	line-height: 30px;
+}
+.side_ss a{
+	color: blue;
+	font-size: 15px;
+	display: inline-block;
+	margin-left: -39px;
+}
+.side i{
+	width:14px;
+	height:14px;
+	background: url(../img/icon_index.png)-583px -16px no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 9px;
+	margin-top: 9px;
+	
+}
+.speci_hotal,.hotal_list{
+	width:1200px;
+	height:260px;
+	
+}
+.speci_hotal{
+	/*margin-top: 50px;*/	
+}
+.hotal_list li{
+	width: 172px;
+	height:260px;
+	float: left;
+	overflow: hidden;
+	/*transition: all 0.5s;*/
+	cursor: pointer;
+}
+.hotal_list li:nth-child(4){
+	width:168px;	
+}
+.bs{
+	width: 400px;
+	height:260px;
+}
+.bc1{
+	background: url(../img/specialities_hotal/20150422_ifold1.jpg);
+}
+.bc2{
+	background: url(../img/specialities_hotal/20150120_ifold2.jpg);
+}
+.bc3{
+	background: url(../img/specialities_hotal/20150120_ifold3.jpg);
+}
+.bc4{
+	background: url(../img/specialities_hotal/20150120_ifold4.jpg);
+}
+.bc5{
+	background: url(../img/specialities_hotal/20150120_ifold5.jpg);
+}
+.bc6{
+	background: url(../img/specialities_hotal/20150120_ifold6.jpg);
+}
+.bc7{
+	background: url(../img/specialities_hotal/20150120_ifold7.jpg);
+}
+/*li:hover .bs{
+	width: 400px;
+	opacity: 0.8;
+	transition: all 1s;
+}*/
+
+.title{
+	width:1200px;
+	height:60px;
+	line-height: 60px;
+	border-bottom:2px solid #FF5555;
+	box-sizing: border-box;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.title h3{
+	display: inline-block;
+	color:#FF5555 ;
+	font-size: 25px;
+}
+.title span{
+	color: #999999;
+	color: 12px;
+}
+.inContry{
+	width:1200px;
+	height:40px;
+	padding-top: 10px;
+}
+.incc{
+	width:100px;
+	height:40px;
+	line-height: 40px;
+}
+.inContry .incc i{
+	width:20px;
+	height: 30px;
+	background: url(../img/icon_index.png) -578px -101px no-repeat;
+	vertical-align: middle;
+}
+.rep{
+	width:27px !important ;
+	height: 30px;
+	background: url(../img/icon_index.png)-573px -131px no-repeat !important ;
+}
+.place_list li{
+	width:80px;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+	box-sizing: border-box;
+	cursor: pointer;
+	
+
+}
+.place_list{
+	width:700px;
+	height:40px;
+
+
+}
+.place_list li:hover {
+	border-radius: 50px;
+	border:1px solid  #FF5555;
+	color:  #FF5555;
+}
+.place_list li,.more{
+	color: gray;
+	font-size: 15px;
+	display: inline-block;
+	width:80px;
+	height:40px;
+	line-height: 40px;
+	
+}
+.more{
+	width:50px;
+	height:40px;
+	line-height: 40px;
+}
+.more:hover a{
+	color:  #FF5555;
+}
+.detile,.de_pic{
+	width:1220px;
+	height:200px;
+	margin: 0 auto;
+}
+.detile{
+	padding-top:10px;
+	padding-bottom: 30px;
+}
+.de_pic li{
+	width: 293px;
+	height:230px;
+	margin:0 5px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+
+.txt{
+	width: 293px;
+	height:35px;
+	line-height: 35px;
+	color: gray;
+	font-size: 13px;
+	background-color: #F7F7F7;
+	position: absolute;
+	top:190px;
+	left: 0px;
+}
+.de_pic li a img{
+	transition:all 0.4s;
+}
+.de_pic li:hover p{
+	border-bottom: 2px solid  #FF5555;
+}
+.de_pic li:hover a img{
+	transform: translateY(-10px);	
+	}
+.mytab{
+	display: none;
+}
+.mytab1{
+	display: none;
+}
+
+/*.旅游指南*/
+.t1 h3{
+	color: #89CA00;
+}
+.t1 {
+	border-bottom: 2px solid #89CA00;
+}
+.tabCar{
+	width: 1200px;
+	height: 220px;
+	padding-top: 25px;
+}
+.left{
+	width:580px;
+	height:220px;
+}
+.tabCar .left ul{
+	width:220px;
+	height:220px;
+}
+.tabCar .left ul li{
+	width:220px;
+	height:54px;
+	line-height: 54px;
+	border-bottom: 1px solid #CCCCCC;
+	position: relative;
+}
+.tabCar .left ul li a{
+	color: gray;
+	font-size:13px;
+	display: block;
+	box-sizing: border-box;
+	padding-left: 20px;
+	
+}
+.left ul li.tab_on a{
+	background: #89CA00;
+	color: white;
+}
+.green{
+	width:12px;
+	height:20px;
+	background: url(../img/icon_index.png)-547px 0px no-repeat;
+	position: absolute;
+	left:220px;
+	top:18px;
+	display: none;
+}
+.img_list,.img_list img{
+	width:360px;
+	height:220px;
+	overflow: hidden;
+}
+.rig{
+	width: 600px;
+	height:220px;
+	/*background: yellow;*/
+}
+.rig ul li{
+	width:290px;
+	height:222px;
+	float: left;
+	position: relative;
+	
+}
+.rig ul li:first-child{
+	margin-right: 20px;
+}
+.rig ul li:hover{
+	border-bottom: 2px solid #89CA00;
+}
+
+.rig ul li img{
+	height: 180px;
+}
+.rig ul li span{
+	display: block;
+	box-sizing: border-box;
+	color: blue;
+	width:290px ;
+	height:40px;
+	line-height: 40px;
+	background: #F7F7F7;
+	padding: 0 5px;
+	position: absolute;
+	top:181px;
+}
+/*why us*/
+.service_us{
+	width: 1200px;
+	height:100px;
+	margin: 25px auto;
+	background: #F7F7F7;
+	border-bottom: 1px solid #E5E5E5;
+}
+.service_us ul{
+	width: 1200px;
+	height: 100px;
+	box-sizing: border-box;
+	padding: 20px 0;
+}
+.service_us ul li{
+	float: left;
+	width: 290px;
+	height:60px;
+}
+.service_us ul li i{
+	vertical-align: middle;
+}
+.c1{
+	width:60px;
+	height:60px;
+	background: url(../img/icon_index.png) -91px -4px;
+}
+.c2{
+	width:60px;
+	height:60px;
+	background: url(../img/icon_index.png) -159px -4px;
+	
+}
+.c3{
+	width:60px;
+	height:60px;
+	background: url(../img/icon_index.png) -228px -4px;
+}
+.c4{
+	width:60px;
+	height:60px;
+	background: url(../img/icon_index.png) -295px -6px;
+}
+.service_us ul li span{
+	color: #555;
+	box-sizing: border-box;
+	padding-top: 18px;
+	display: inline-block;
+}
+/*目的地*/
+.hot{
+	width: 421px;
+	/*height: 216px;*/	
+	height:0px;
+	overflow: hidden;
+	background: #F7F7F7;
+	border-radius: 20px;
+	position: absolute;
+	top: 52px;
+	left: 57px;
+	/*display: none;*/
+	transition: all 0.3s ease-in;.
+}
+.hop_place{
+	/*border:1px solid #CCCCCC;*/
+}
+.hop_place::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.hop_place dl{
+	float:left;
+	width:80px;
+	/*background: white;*/
+	text-align: center;
+}
+.sport,.near {
+	margin-left: 10px ;
+	margin-bottom: 15px;
+}
+.sport p{
+	font-size: 12px;
+	color: #C5D9E8;
+	border-bottom: 1px dashed ghostwhite;
+	box-sizing: border-box;
+	padding-top: 15px;
+}
+.near{
+	color: gray;
+	font-size: 14px;
+}
+.hop_place dl dd{
+	font-size: 15px;
+	margin: 5px auto ;
+	cursor: pointer;
+}
+.hop_place dl dd:hover{
+	color: orangered;
+}
+.myForm{
+	position: relative;
+}

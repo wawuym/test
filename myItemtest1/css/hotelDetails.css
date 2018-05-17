@@ -1,0 +1,222 @@
+/*Çå³ý¸¡¶¯*/
+.detailHeader::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.main{
+    min-width: 1200px;
+    background: #F8F8F8;
+    padding: 20px;
+}
+.detailHeader{
+    width:1200px;
+    background: white;
+    margin:0 auto;
+    /*box-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.08);*/
+    box-shadow: 0 0 3px #ccc;
+    box-sizing: border-box;
+    padding:0 20px;
+}
+.detailHeader h1,.place{
+    width:900px;
+    font-weight: normal;
+    box-sizing: border-box;
+
+}
+.money{
+    width:260px;
+}
+.money input{
+    width: 100px;
+    height: 40px;
+    background: #FF8800;
+    color: white;
+    font-size: 20px;
+    outline: none;
+   border:none;
+
+}
+.price{
+    font-size: 25px;
+    color: #FF8800;
+    display:inline-block;
+    margin-right: 20px;
+}
+.price span,.place p{
+    color:gray;
+    font-size: 12px;
+}
+.place{
+   box-sizing: border-box;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.focusReam-focus,.focusReam-focus ul{
+    width:749px;
+    height:270px;
+}
+.focusReam-focus ul li{
+    float:left;
+}
+.focusReam-focus ul li{
+    position: relative;
+    float: left;
+    width: 130px;
+    height: 86px;
+    /*overflow: hidden;*/
+    margin: 0 0 5px 5px;
+    cursor: pointer;
+    box-shadow: 0 3px 5px #ccc;
+}
+.focusReam-focus ul li img{
+    width: 130px;
+    height: 86px;
+}
+.focusReam-focus ul li:first-child,.focusReam-focus ul li:first-child img{
+    width:462px;
+    height:269px;
+    /*overflow: hidden;*/
+}
+.focusReam-ream{
+    width:404px;
+}
+.good{
+    color:#333;
+    font-size: 14px;
+}
+.good span{
+    color: #FF8800;
+}
+.miaosu{
+    color:#333;
+    font-size: 14px;
+}
+.tuijian span{
+    color:orangered;
+    display: inline-block;
+    margin-top:80px;
+}
+.menu,.date{
+    width:1200px;
+    height:40px;
+    line-height: 40px;
+    margin:0 auto;
+    background: white;
+    clear: both;
+    margin-top: 25px;
+}
+
+.menu ul li{
+    float: left;
+    width:100px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+}
+.menu ul li a{
+    color:gray;
+    display:inline-block;
+    width:100px;
+    height:40px;
+    font-size:20px;
+}
+.menuWord a{
+    background: #EE3388;
+    color: white !important;
+}
+.date span{
+    color:gray;
+}
+.sure{
+    width:50px;
+    height:19px;
+    border:none;
+    background:#EE3388;
+}
+
+.produce_section{
+    width:950px;
+    height: 150px;
+    background:white ;
+    margin: 25px 15px 25px 0px;
+    box-sizing: border-box;
+    padding-top:25px;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.09);
+}
+.product_left img{
+    width:150px;
+    height:100px;
+    display: inline-block;
+    margin:0 25px;
+}
+.product_item p{
+    margin:10px 0px;
+    font-size: 14px;
+    color: grey;
+}
+.price{
+    color:red;
+    font-size: 20px;
+}
+.product_info input{
+    width: 100px;
+    height:40px;
+    background: orangered;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+.room,.site,.tip{
+    width:1200px;
+    margin:0 auto;
+    background: white;
+}
+.content{
+    min-width: 1200px;
+    background: #F8F8F8;
+}
+.siceOne{
+    display: inline-block;
+    width:950px;
+}
+.tip{
+    margin-bottom: 25px;
+}
+.titleTip{
+    width:950px;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    background: white;
+}
+.indect{
+    width:950px;
+    height:30px;
+    line-height: 30px;
+    border-radius: 50px;
+    background: #F1F1F1;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+/*.titlePic{
+    width: 48px;
+    height: 46px;
+    background: url(../img/sprite_z.png) -44px -67px;
+}*/
+.look{
+    width:80px;
+    height:30px;
+    outline: none;
+    border:none;
+   background: orangered;
+}
+.tip p{
+    margin:20px auto;
+}
+
+
+
+
+

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>酒店详情</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/hotelDetails.css">
+    <script src="js/user.js" type="text/javascript" charset="utf-8" defer="ture"></script>
+    <script src="js/hotelDetails.js" type="text/javascript" charset="utf-8" defer="ture"></script>
+    <script src="WdatePicker/WdatePicker/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8" defer="true"></script>
+    <script src="WdatePicker/WdatePicker/WdatePicker.js" type="text/javascript" charset="utf-8" defer=="true"></script>
+
+</head>
+<body>
+<div class="header">
+    <!--顶部-->
+    <div class="header_top ">
+        <div class="logo fl"><a href="#" title="艺龙旅行"></a>
+            <span id="user"></span></div>
+        <div class="right fr  ">
+            <div class="branch_menu fl">
+                <a href="#">里程商城&nbsp;|</a>
+                <a href="#">在线客服&nbsp;|</a>
+                <a href="#" class="languages">选择语言 <i class="down"></i><i class="up"></i>
+                </a>
+                <div class="choose_lan">
+                    <a href="">简体版</a>
+                    <a href="">繁体版</a>
+                    <a href="">English</a>
+                </div>
+
+            </div>
+            <span class="fr cc1"><i class="con3"></i><em>7*24客服电话</em><em class="phone">4009-333-333</em></span>
+            <span class="fr cc2"><i class="con2 con"></i><em>手机版</em><em>专享五折起</em></span>
+            <span class="fr cc3"><i class="con1"></i><em>小程序</em><em>体验更轻盈</em></span>
+        </div>
+    </div>
+    <!--导航部分-->
+    <div class="nav_list cl">
+        <div class="nav_box">
+            <ul class="nav fl">
+                <li class="on"><a href="index.html">首页</a></li>
+                <li><a href="domestic.html">国内酒店</a></li>
+                <li><a href="domestic.html">国际酒店</a></li>
+                <li><a href="line.html">机票</a></li>
+                <li><a href="line.html">火车票</a></li>
+                <li><a href="#">旅游指南</a></li>
+            </ul>
+            <div class="register fr">
+                <span class="login"><a href="langding.html">登录&nbsp;|</a></span>
+                <span class="login"><a href="register.html">注册</a></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!--产品详情部分-->
+    <div class="main">
+        <!-- 首屏-->
+            <div class="detailHeader">
+                <div class="hotal_name fl">
+                    <h1 id="hotelName">理县古尔沟华美达温泉度假酒店</h1>
+                </div>
+                <div class="money fr">
+                    <div class="price">¥2999 <span>起</span> </div>
+                    <input value="立即订购" type="button">
+                </div>
+                <div class="place"><p>理县古尔沟镇木城沟内</p></div>
+                <div class="focusReam-focus fl">
+                    <ul id="pic_list">
+                        <li><img src="img/foucs/fous01.jpg" alt=""></li>
+                        <li><img src="img/foucs/fous02.jpg" alt=""></li>
+                        <li><img src="img/foucs/fous03.jpg" alt=""></li>
+                        <li><img src="img/foucs/fous04.jpg" alt=""></li>
+                        <li><img src="img/foucs/fous05.jpg" alt=""></li>
+                        <li><img src="img/foucs/fousc06.jpg" alt=""></li>
+                        <li><img src="img/foucs/fousc07.jpg" alt=""></li>
+                    </ul>
+                </div>
+                <div class="focusReam-ream fr">
+                    <div class="good"><span>98.2%</span>好评率 已有<span class="num">2</span>条</div>
+                    <div class="tuijian">
+                        <span>产品经理推荐</span>
+                        <div class="miaosu">
+                            酒店位于米亚罗风景区观光带，
+                            区域内神峰环绕，峡谷相伴，
+                            山奇水秀，风景如画！ 秋赏红叶，
+                            冬泡温泉，夏避酷暑，是您休闲度假的理想之选！
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!-- 具体菜单部分-->
+        <div class="menu">
+            <ul id="menu_list">
+                <li class="menuWord"><a href="#ct1">预定</a></li>
+                <li><a href="#ct2">酒+景</a></li>
+                <li><a href="#ct3">酒店详情</a></li>
+                <li><a href="">设施服务</a></li>
+                <li><a href="">交通位置</a></li>
+                <li><a href="">点评</a></li>
+                <li><a href="">相关游记</a></li>
+            </ul>
+        </div>
+        <!-- 预定部分-->
+        <div class=date>
+            <span>入住：</span><input type="text"  id="text_date" onfocus="WdatePicker({dateFmt:'yyyy-MM-dd'})"/>
+            <span>退房：</span><input type="text" id="text_dat" onfocus="WdatePicker({dateFmt:'yyyy-MM-dd'})"/>
+            <input type="button" value="确定" class="sure">
+        </div>
+        <div class="room">
+            <div class="produce_section">
+                <div class="product_left fl">
+                    <img src="img/room/room1.jpg">
+                </div>
+                <div class="product_item fl" id="ct1">
+                    <h4>【精舍房】</h4>
+                    <p>大床/双床|不能加床|最多入住2人|宽带免费</p>
+                    <p>双早|有窗|不可更改</p>
+                </div>
+                <div class="product_info fr">
+                    <div class="price">¥184起/人</div>
+                    <input value="预定" type="button">
+                 </div>
+            </div>
+            <div class="produce_section">
+                <div class="product_left fl">
+                    <img src="img/room/room2.jpg">
+                </div>
+                <div class="product_item fl">
+                    <h4>【山色房】</h4>
+                    <p>大床/双床|大床|不能加床|最多入住2人|宽带免费</p>
+                    <p>双早|有窗|不可更改</p>
+                </div>
+                <div class="product_info fr">
+                    <div class="price">¥250起/人</div>
+                    <input value="预定" type="button">
+                </div>
+            </div>
+            <div class="produce_section">
+                <div class="product_left fl">
+                    <img src="img/room/room3.jpg">
+                </div>
+                <div class="product_item fl">
+                    <h4>【六通房】</h4>
+                    <p>大床/双床|大床|不能加床|最多入住2人|宽带免费</p>
+                    <p>部分有窗|不可更改</p>
+                </div>
+                <div class="product_info fr">
+                    <div class="price">¥300起/人</div>
+                    <input value="预定" type="button">
+                </div>
+            </div>
+            <div class="produce_section">
+                <div class="product_left fl">
+                    <img src="img/room/room4.jpg">
+                </div>
+                <div class="product_item fl">
+                    <h4>庭院房</h4>
+                    <p>大床|不能加床|最多入住2人|宽带免费</p>
+                    <p>双早|有窗|不可更改</p>
+                </div>
+                <div class="product_info fr">
+                    <div class="price">¥450起/人</div>
+                    <input value="预定" type="button">
+                </div>
+            </div>
+    </div>
+        <!-- 酒+景模块-->
+        <div class="site">
+            <div class="produce_section">
+                <div class="product_left ">
+                   <h4 id="ct2">酒+景推荐</h4>
+                </div>
+                <div class="product_item fl">
+
+                   <div class="siceOne">
+                       <p class="fl">【住古尔沟·雪山温泉】住1晚古尔沟华美达温泉度假酒店＋酒店温泉＋酒店早餐
+                           ，可自行选购毕棚沟门票</p>
+                       <div class="fr"><span class="price" >¥2999起/人</span><input value="查看" type="button" class="look"></div>
+
+                   </div>
+                    <div class="siceOne">
+                        <p class="fl">【轻奢度假·毕棚沟·温泉】
+                            住1晚古尔沟华美达温泉度假酒店
+                            ＋毕棚沟门票和观光车＋天际泳池、
+                            室内外温泉各种泡</p>
+                        <div class="fr"><span class="price">¥2999起/人</span><input value="查看" type="button" class="look"></div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!--酒店详情部分-->
+<div class="content">
+    <div class="tip">
+        <div class="titleTip" id="ct3">商品详情</div>
+        <div class="indect">  酒店介绍 </div>
+        <p>
+            古尔沟华美达温泉度假酒店位于景色
+            秀丽的古尔沟——米亚罗风景观光带，
+            区域内神峰环绕，峡谷相伴，山奇水秀，
+            风景如画。酒店根植于阿坝州著名藏羌
+            文化长廊，浓郁的民俗风情与人文风光，
+            为每一位游客带来独特的文化体验。
+            酒店依托流淌千年的雪山温泉，是集浴用
+            ，饮用，疗用于一体的天然热质矿泉，
+            历代以来，就是川西高原各族人民顶礼
+            膜拜的“温汤神泉”，享有“仙山瑶池
+            ，灵水神泉”的美誉。
+        </p>
+        <div><img src="img/foucs/mm1.jpg" alt=""></div>
+        <p>酒店拥有十余套独立别墅及综合楼四十
+            余套豪华客房共计百余间客房，
+            将精致、舒适、现代、简洁、休闲养生及地域文化优雅而
+            淋漓尽致的体现在客房及服务产品之中</p>
+        <div><img src="img/foucs/mm2.jpg" alt=""></div>
+    </div>
+</div>
+
+<!--底部-->
+<div class="footer">
+    <div class="foot_info">
+        <dl>
+            <dt>加盟合作</dt>
+            <dd><a href="">酒店加盟</a></dd>
+            <dd><a href="">开放平台</a></dd>
+            <dd><a href="">代理合作</a></dd>
+            <dd><a href="">广告服务</a></dd>
+            <dd><a href="">商家中心</a></dd>
+        </dl>
+        <dl>
+            <dt>关于艺龙</dt>
+            <dd><a href="">酒店大全</a></dd>
+            <dd><a href="">国际酒店</a></dd>
+            <dd><a href="">旅行保险</a></dd>
+            <dd><a href="">校园招聘</a></dd>
+            <dd><a href="">联系我们</a></dd>
+        </dl>
+        <dl>
+            <dt>艺龙APP下载</dt>
+            <dd class="app_down"></dd>
+
+        </dl>
+        <dl>
+            <dt>艺龙官方微信</dt>
+            <dd class="winxin"></dd>
+
+        </dl>
+        <dl>
+            <dt>艺龙官方小程序</dt>
+            <dd class="small_pro"></dd>
+
+        </dl>
+    </div>
+    <p class="version"> © 2000 - 2017 北京艺龙信息技术有限公司, eLong, Inc or its affiliates. All Rights Reserved. </p>
+    <div class="footer_link">
+        <ul>
+            <li class="on_li"><a href="" >酒店预订</a></li>
+            <li><a href="" >机票查询</a></li>
+            <li><a href="" >酒店团购</a></li>
+            <li><a href="" >热门城市</a></li>
+            <li><a href="" >合作伙伴</a></li>
+            <li><a href="" >常见酒店</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

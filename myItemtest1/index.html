@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8" />
+		<title>首页</title>		
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css"  href="css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+
+
+		<!--头部json数据拼接-->
+		<script src="js/json_data.js" type="text/javascript" charset="utf-8" ></script>
+			
+		<!--选项卡切换-->
+		<script src="js/tab.js" type="text/javascript" charset="utf-8"></script>		
+			
+		<!--首页渐变轮播图-->
+		<script src="js/banner.js" type="text/javascript" charset="utf-8" defer="true"></script>
+			
+		<!--映入jqery加载日历插件-->
+		<script src="WdatePicker/WdatePicker/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8" defer="true"></script>
+		<script src="WdatePicker/WdatePicker/WdatePicker.js" type="text/javascript" charset="utf-8" defer="true"></script>	
+		<!-- 获取用户名和密码-->
+		<script src="js/user.js" type="text/javascript" charset="utf-8" defer="ture"></script>
+
+
+	</head>
+	<body>
+		<!--header-->
+		<div class="header">
+			<!--顶部-->
+			<div class="header_top ">
+				<div class="logo fl"><a href="#" title="艺龙旅行"></a>
+					<span id="user"></span>
+				</div>
+				<div class="right fr  ">
+					<div class="branch_menu fl">
+						<a href="#">里程商城&nbsp;|</a>
+						<a href="#">在线客服&nbsp;|</a>
+						<a href="#" class="languages">选择语言 <i class="down"></i><i class="up"></i>	
+						</a>	
+						<div class="choose_lan">
+								<a href="">简体版</a>
+								<a href="">繁体版</a>
+								<a href="">English</a>
+							</div>
+						
+					</div>
+					<span class="fr cc1"><i class="con3"></i><em>7*24客服电话</em><em class="phone">4009-333-333</em></span>
+					<span class="fr cc2"><i class="con2 con"></i><em>手机版</em><em>专享五折起</em></span>
+					<span class="fr cc3"><i class="con1"></i><em>小程序</em><em>体验更轻盈</em></span>
+				</div>	
+			</div>
+			<!--导航部分-->
+			<div class="nav_list cl">
+				<div class="nav_box">
+					<ul class="nav fl">
+						<li class="on"><a href="index.html">首页</a></li>
+						<li><a href="domestic.html">国内酒店</a></li>
+						<li><a href="domestic.html">国际酒店</a></li>
+						<li><a href="line.html">机票</a></li>
+						<li><a href="line.html">火车票</a></li>
+						<li><a href="#">旅游指南</a></li>
+					</ul>
+					<div class="register fr">
+							<span class="login"><a href="langding.html">登录&nbsp;|</a></span>
+							<span class="login"><a href="register.html">注册</a></span>
+					</div>
+				</div>	
+			</div>
+		</div>
+			
+		<!--banner-->
+		<div class="banner">
+			<div class="banner_list">
+				<ul>
+					<li class="pic_on"><a  href="#" style="background: url(img/banner/1.jpg) no-repeat center bottom;"></a></li>
+					<li><a href="#" style="background: url(img/banner/2.jpg) no-repeat center bottom;;"></a></li>
+					<li><a href="#" style="background: url(img/banner/3.jpg) no-repeat center bottom;;"></a></li>
+					<li><a href="#" style="background: url(img/banner/4.jpg) no-repeat center bottom;;"></a></li>
+					<li><a href="#" style="background: url(img/banner/5.jpg) no-repeat center bottom;;"></a></li>
+					<li><a href="#" style="background: url(img/banner/6.jpg) no-repeat center bottom;;"></a></li>
+				</ul>
+				<div class="index_list">
+					<span class="list_on"></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			
+			<div class="all_rearch">
+				<div class="reach_item">
+					<ul class="list_aside">
+						<li>酒店</li>
+						<li>机票</li>
+						<li>火车票</li>
+					</ul>
+				</div>
+				<div class="cate_channel_option">
+					<!--酒店选项卡-->
+					<div class="wrap_ts">
+						<div class="hotal">
+							<span>国内酒店</span>
+							<span>国际酒店</span>
+						</div>
+						<form action="" method="post" class="myForm">
+							<span>目的地：</span><input type="text" class="destination" value="北京市" id="fina"/></br>
+							<span class="intxt">入住：</span><input type="text"  id="text_date" onfocus="WdatePicker({dateFmt:'yyyy-MM-dd'})"/> 
+							<span>退房：</span><input type="text" id="text_dat" onfocus="WdatePicker({dateFmt:'yyyy-MM-dd'})"/> </br>
+							<span>关键字：</span><input type="text"  value="商圈/位置/酒店名" class="destination" id="keyWord"/></br>
+							<input type="button"  value="搜索" class="reserch"/>
+							<input type="button" name="地图搜索"  value="地图搜索"  class="map_reserch"/>	
+							
+							<div class="hot" id="hot">
+								<div class="sport"><p>拼音支持首字母输入</p></div>
+								<p class="near">最近搜索记录：<span></span></p>
+								<div class="hop_place">
+									<dl>
+										<dt></dt>
+										<dd>北京</dd>
+										<dd>厦门</dd>
+										<dd>西安</dd>
+										<dd>长沙</dd>	
+									</dl>
+									<dl>
+										<dt></dt>
+										<dd>上海</dd>
+										<dd>南京</dd>
+										<dd>天津</dd>
+										<dd>香港</dd>	
+									</dl>
+									<dl>
+										<dt></dt>
+										<dd>杭州</dd>
+										<dd>成都</dd>
+										<dd>重庆</dd>
+										<dd>大连</dd>	
+									</dl>
+									<dl>
+										<dt></dt>
+										<dd>广州</dd>
+										<dd>武汉</dd>
+										<dd>苏州</dd>
+										<dd>三亚</dd>	
+									</dl>
+									<dl>
+										<dt></dt>
+										<dd>深圳</dd>
+										<dd>青岛</dd>
+										<dd>济南</dd>
+										<dd>哈尔滨</dd>	
+									</dl>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="main">
+			<div class="side"><div class="side_ss"><i></i><a href="#"> 登陆</a><span> 展示你的个性化内容</span></div></div>
+			<!--特色酒店模块-->
+			<div class="speci_hotal">
+				<ul class="hotal_list" id="hotal_sty">
+					<li><a href="#"></a><div class="bc1 bs"></div></li>
+					<li><a href="#"></a><div class="bc2 bs"></div></li>
+					<li><a href="#"></a><div class="bc3 bs"></div></li>
+					<li><a href="#"></a><div class="bc4 bs"></div></li>
+					<li><a href="#"></a><div class="bc5 bs"></div></li>
+					<li><a href="#"></a><div class="bc6 bs"></div></li>
+					<li><a href="#"></a><div class="bc7 bs"></div></li>
+				</ul>
+			</div>
+			<!--目的地指数-->
+			<div class="place">
+				<div class="title">
+					<h3>目的地指数</h3>
+					<span>覆盖全球75万家酒店，你想住的，我们都有</span>
+				</div>
+				<!--国内酒店-->
+				<div class="inContry">
+					<div class="incc fl"><i></i>国内</div>
+					<ul class="fl place_list p_list">
+						<li>登高踏青</li>
+						<li>小憩温泉</li>
+						<li>天然氧吧</li>
+						<li>草原撒欢</li>
+						<li>小镇时光</li>
+						<li>美食之城</li>
+					</ul>
+					<div class="more fr">
+					<a href="#">更多>></a>
+					</div>
+				</div>
+				
+				<!--具体选项卡-->
+				<div class="detile p1">
+					<!--从json中取的数据-->
+					<!--格式-->
+					<!--<li><a href="#"><img src="img/out_contry/termin_t1/termini_it1_jzd.jpg"/></a><p class="txt">风情英伦，帝国余韵</p></li>-->
+				</div>
+				
+				<!--国外酒店-->
+				<div class="inContry ">
+					<div class="incc fl"><i class="rep"></i>海外</div>
+					<ul class="fl place_list pp_list">
+						<li>文艺清新</li>
+						<li>面朝大海</li>
+						<li>别样建筑</li>
+						<li>浪漫主义</li>
+						<li>魅力都市</li>
+					</ul>
+					<div class="more fr">
+					<a href="#">更多>></a>
+					</div>
+				</div>
+				
+				<!--具体选项卡2-->
+				<div class="detile p2">
+					<!--从json里面取数据-->					
+				</div>
+					
+			</div>
+			
+			<!--旅游指南-->
+			<div class="title t1">
+					<h3 class="zhzen">旅游指南</h3>	
+			</div>
+			<div class="tabCar cl">
+				<div class="left fl">
+					<ul class="fl" id="left_tab">
+						<li><a href="">烟雨江南醉杭州 正是问茶时</a><i class="green"></i></li>
+						<li><a href="">无锡鼋头渚的樱舞飞扬</a><i class="green"></i></li>
+						<li><a href="">武大樱花 飞扬校园里的青春</a><i class="green"></i></li>
+						<li><a href="">昆明郁金香 赏花何必去荷兰</a><i class="green"></i></li>
+					</ul>
+					<div class="img_list fl" id="imgList">
+						<img src="img/tour/18022803.jpg"/>
+						<img src="img/tour/18022805.jpg" alt="" />
+						<img src="img/tour/18022804.jpg"/>
+						<img src="img/tour/18022806.jpg"/>
+					</div>
+				</div>
+				<div class="rig fr">
+					<ul>
+						<li><a href=""><img src="img/tour/18022802.jpg"/><span>全年旅行月历 四季里的12中玩法</span></a></li>
+						<li><a href=""><img src="img/tour/18022801.jpg"/><span>2018 再赴婺源油菜花之约</span></a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<!--why us-->
+			<div class="service_us">
+				<ul>
+					<li><i class="c1 con"></i><span> &nbsp;全球110万家酒店</span></li>
+					<li><i class="c2 con"></i><span> &nbsp;订酒店返现金高达20%</span></li>
+					<li><i class="c3 con"></i><span> &nbsp;国际酒店8折起</span></li>
+					<li><i class="c4 con"></i><span> &nbsp;7*24小时服务</span></li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--底部-->
+		<div class="footer">
+				<div class="foot_info">
+					<dl>
+						<dt>加盟合作</dt>
+						<dd><a href="">酒店加盟</a></dd>
+						<dd><a href="">开放平台</a></dd>
+						<dd><a href="">代理合作</a></dd>
+						<dd><a href="">广告服务</a></dd>
+						<dd><a href="">商家中心</a></dd>
+					</dl>
+					<dl>
+						<dt>关于艺龙</dt>
+						<dd><a href="">酒店大全</a></dd>
+						<dd><a href="">国际酒店</a></dd>
+						<dd><a href="">旅行保险</a></dd>
+						<dd><a href="">校园招聘</a></dd>
+						<dd><a href="">联系我们</a></dd>
+					</dl>
+					<dl>
+						<dt>艺龙APP下载</dt>
+						<dd class="app_down"></dd>
+						
+					</dl>
+					<dl>
+						<dt>艺龙官方微信</dt>
+						<dd class="winxin"></dd>
+						
+					</dl>
+					<dl>
+						<dt>艺龙官方小程序</dt>
+						<dd class="small_pro"></dd>
+						
+					</dl>
+				</div>
+				<p class="version"> © 2000 - 2017 北京艺龙信息技术有限公司, eLong, Inc or its affiliates. All Rights Reserved. </p>
+				<div class="footer_link">
+					<ul>
+						<li class="on_li"><a href="" >酒店预订</a></li>
+						<li><a href="" >机票查询</a></li>
+						<li><a href="" >酒店团购</a></li>
+						<li><a href="" >热门城市</a></li>
+						<li><a href="" >合作伙伴</a></li>
+						<li><a href="" >常见酒店</a></li>
+					</ul>
+				</div>
+		</div>
+	
+	</body>
+</html>

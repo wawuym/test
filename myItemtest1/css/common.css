@@ -1,0 +1,161 @@
+body{
+	font-family:Microsoft YaHei ;
+}
+*{
+	margin:0px;
+	padding: 0px;
+}
+a{
+	font-size:13px;
+	text-decoration: none;
+	color: #999999;
+}
+li{
+	list-style: none;
+
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.header_top,.speci_hotal,.side,.title,.inContry,
+.detile,.tabCar,.foot_info{
+	/*width:1200px;*/
+	margin: 0 auto;
+}
+.cl{
+	clear: both;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 534854 */
+  src: url('//at.alicdn.com/t/font_534854_rcwcwgbi5yzxgvi.eot');
+  src: url('//at.alicdn.com/t/font_534854_rcwcwgbi5yzxgvi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_534854_rcwcwgbi5yzxgvi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_534854_rcwcwgbi5yzxgvi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_534854_rcwcwgbi5yzxgvi.svg#iconfont') format('svg');
+}
+/*摇动的特效*/
+.con{
+	animation-name:myStyle;
+	animation-duration: 0.15s;  /*动画时间 */
+	animation-iteration-count: infinite;/*动画循环播放  
+	/*animation: myStyle 0.13s 5s infinite; 第一个时间表示过渡时间 第二个时间表示循环时间*/ 
+}
+@-moz-keyframes myStyle{
+	0%{
+		transform: rotate(0deg);
+	}
+	5%{
+		transform: rotate(30deg);
+	}
+	10%{
+		transform: rotate(0deg);
+	}
+	20%{
+		transform: rotate(0deg);
+	}
+	30%{
+		transform: rotate(0deg);
+	}
+	40%{
+		transform: rotate(0deg);
+	}
+	50%{
+		transform: rotate(0deg);
+	}
+	60%{
+		transform: rotate(0deg);
+	}
+	70%{
+		transform: rotate(0deg);
+	}
+	80%{
+		transform: rotate(0deg);
+	}
+	90%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+	
+}
+@-webkit-keyframes myStyle{
+	0%{
+		transform: rotate(0deg);
+	}
+	5%{
+		transform: rotate(30deg);
+	}
+	10%{
+		transform: rotate(0deg);
+	}
+	20%{
+		transform: rotate(0deg);
+	}
+	30%{
+		transform: rotate(0deg);
+	}
+	40%{
+		transform: rotate(0deg);
+	}
+	50%{
+		transform: rotate(0deg);
+	}
+	60%{
+		transform: rotate(0deg);
+	}
+	70%{
+		transform: rotate(0deg);
+	}
+	80%{
+		transform: rotate(0deg);
+	}
+	90%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+	
+}
+@-ms-keyframes myStyle{
+	0%{
+		transform: rotate(0deg);
+	}
+	5%{
+		transform: rotate(30deg);
+	}
+	10%{
+		transform: rotate(0deg);
+	}
+	20%{
+		transform: rotate(0deg);
+	}
+	30%{
+		transform: rotate(0deg);
+	}
+	40%{
+		transform: rotate(0deg);
+	}
+	50%{
+		transform: rotate(0deg);
+	}
+	60%{
+		transform: rotate(0deg);
+	}
+	70%{
+		transform: rotate(0deg);
+	}
+	80%{
+		transform: rotate(0deg);
+	}
+	90%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}

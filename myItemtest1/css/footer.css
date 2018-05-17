@@ -1,0 +1,81 @@
+.footer{
+	min-width: 1200px; /*最小宽度是1200 超过了1200就按照100%的宽度显示    */
+	margin-top: 25px;
+	border-top: 1px solid #EEEEEE;
+}
+.foot_info{
+	width:1000px;	
+	height: 210px;
+}
+.foot_info dl{
+	float: left;
+	margin:15px 35px;
+	
+}
+.foot_info dl dt{
+	width: 130px;
+	font-size: 16px;
+	color: grey;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	padding-left: 15px;
+	border-left: 2px solid blue;
+}
+.foot_info dl dd a{
+	width: 130px;
+	box-sizing: border-box;
+	padding-left: 15px;
+	color: black;
+	font-size: 12px;
+	
+}
+.app_down{
+	width: 95px;
+	height:95px;
+	background: url(../img/icon201706.png) -155px -58px;
+}
+.winxin{
+	width: 95px;
+	height:95px;
+	background: url(../img/icon201706.png) -367px -58px;
+}
+.small_pro{
+	width: 95px;
+	height:95px;
+	background: url(../img/icon201706.png) -260px -58px;
+}
+.version{
+	width: 1200px;
+	height: 50px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 13px ;
+	color: grey;
+}
+.footer_link{
+	min-width: 1200px;
+	height: 40px;
+	background: #7C8FA2;
+	
+}
+.footer_link ul{
+	width: 1000px;
+	margin: 0 auto;
+}
+.footer_link ul li{
+	width:166px;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+}
+.footer_link ul li a{
+	display: inline-block;
+	color: white;
+}
+.on_li {
+	background: #C0D2E4;
+}
+.footer_link ul li:hover{
+	background:#8da1b5 ;
+}

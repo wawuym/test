@@ -1,0 +1,24 @@
+body{
+	font-family: "黑体", "Arial", "华文细黑", STHeiti Light, STXihei, "华文细黑", SimHei !important;
+}
+.pt3{
+	margin-top:3%;
+}
+.pt4{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.mt40{
+	margin-top: 180px;
+}
+.text_B{
+	text-decoration:underline;	
+}
+.position_word{
+	font-size: 20px;
+}
+@media (max-width:960px){  
+.mt40{
+	margin-top: 20px;
+} 
+}  

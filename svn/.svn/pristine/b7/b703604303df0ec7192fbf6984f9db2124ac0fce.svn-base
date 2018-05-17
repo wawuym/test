@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head lang="zh-cn">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=EDGE" />
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="font_649150_vdbaicywran0cnmi/iconfont.css" />
+        <link rel="stylesheet" href="css/activity_2.css" />
+        <script src="js/import.js"></script>
+		<title>派悦坊-派悦-悦坊</title>
+	</head>
+	<body>
+		
+		<!--头部-->
+		<div id="headers"></div>
+		
+		<!--中部-->
+		<div class="container content">
+			<div class="row">
+				<h3 class="col-lg-12 col-sm-12 col-md-12 col-xs-12">活动细则：</h3>
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+					<img src="img/activities/acty_bag1.jpg" class="img-responsive" style="width: 100%;"/>
+				</div>
+				<p class="col-lg-12 col-sm-12 col-md-12 col-xs-12 acty_rule">
+					即日起，成功下单的用户，每推荐一名新用户注册并下单，即可获得1张20元“老客户礼券”。被推荐好友通过链接成功注册后，
+					也可获得1张20元的“新客户礼券”，<br />甜蜜好礼当然要与好友一同分享喽～
+				</p>
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 content_acty_how">
+					<img src="img/activities/acty_bag2.jpg" class="acty_how"/>
+					<span>如何分享？</span>
+				</div>
+				<h4 class="col-lg-12 col-sm-12 col-md-12 col-xs-12">1、从微信下单的用户</h4>
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 weixin">
+					<img src="img/activities/weixin.jpg" style="width: 100%;"/>
+				</div>
+				<h4 class="col-lg-12 col-sm-12 col-md-12 col-xs-12">2、从官网下单的用户</h4>
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 web">
+					<img src="img/activities/web.jpg" style="width: 100%;"/>
+				</div>
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 content_acty_problem">
+					<img src="img/activities/acty_bag3.jpg" class="acty_problem"/>
+					<span>常见问题及说明</span>
+				</div>
+				<p class="col-lg-12 col-sm-12 col-md-12 col-xs-12 acty_old">
+					<img src="img/activities/acty_bag4.jpg" style="width: 20px;height: 20px;"/>
+					<span>老客户定义</span>
+			    </p>
+			    <p class="col-lg-12 col-sm-12 col-md-12 col-xs-12 acty_p">
+			    	无论通过电话、网站、门店等途径，只要曾经用自己的手机号码注册过会员
+			    	资格并购买过派悦坊产品，就是派悦坊的老客户。派悦坊所有的会员资格都
+			    	以手机号码为准，因此如果您从未通过官网注册购买产品，只要您的手机号
+			    	码曾经订购过产品，就是派悦坊的老客户。
+			    </p>
+			    <p class="col-lg-12 col-sm-12 col-md-12 col-xs-12 acty_old">
+					<img src="img/activities/acty_bag4.jpg" style="width: 20px;height: 20px;"/>
+					<span>新客户定义</span>
+			    </p>
+			    <p class="col-lg-12 col-sm-12 col-md-12 col-xs-12 acty_p">
+			    	从来没有用自己的手机号码注册过派悦坊账号的就是派悦坊的新客户。
+			    </p>
+			    <p class="col-lg-12 col-sm-12 col-md-12 col-xs-12 acty_old">
+					<img src="img/activities/acty_bag4.jpg" style="width: 20px;height: 20px;"/>
+					<span>新客户定义</span>
+			    </p>
+			    <p class="col-lg-12 col-sm-12 col-md-12 col-xs-12 acty_p">
+			    	从来没有用自己的手机号码注册过派悦坊账号的就是派悦坊的新客户。
+			    </p>
+			    <p class="col-lg-12 col-sm-12 col-md-12 col-xs-12 acty_old">
+					<img src="img/activities/acty_bag4.jpg" style="width: 20px;height: 20px;"/>
+					<span>新客户礼券</span>
+			    </p>
+			    <p class="col-lg-12 col-sm-12 col-md-12 col-xs-12 acty_p">
+			    	老用户在获得该优惠券后是处于未激活状态的，当被推荐人，第一次成功
+			    	下单后，推荐人的“老客户礼券”才能被激活。该优惠券限派悦坊官网、
+			    	官方微信、电话、门店可使用，不可与会员折扣同享，一个订单可以同
+			    	时使用多张“老客户礼券”。
+			    </p>
+			    <p class="col-lg-12 col-sm-12 col-md-12 col-xs-12 acty_old">
+					<img src="img/activities/acty_bag4.jpg" style="width: 20px;height: 20px;"/>
+					<span>礼券查询</span>
+			    </p>
+			    <p class="col-lg-12 col-sm-12 col-md-12 col-xs-12 acty_p" style="margin-bottom: 80px;">
+			    	礼券具体使用规则有效期等相关信息，可在登录后，点击“个人中心-我的礼券”查看。
+			    </p>
+			    <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 content_box">
+					<ul class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+						<li>
+							<a href="activity_1.html">第一页</a>
+						</li>
+						<li>
+							<a href="activity_1.html">上一页</a>
+						</li>
+						<li>
+							<a href="activity_1.html">1</a>
+						</li>
+						<li>
+							<a href="activity_2.html">2</a>
+						</li>
+						<li>
+							<a href="activity_3.html">3</a>
+						</li>
+						<li>
+							<a href="activity_3.html">下一页</a>
+						</li>
+						<li>
+							<a href="activity_3.html">最后一页</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!--尾部-->
+		<div id="footers"></div>
+		
+	</body>
+</html>

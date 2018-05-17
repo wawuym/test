@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=EDGE" />
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="font_649150_vdbaicywran0cnmi/iconfont.css" />
+        <script src="js/import.js"></script>
+        <link rel="stylesheet" href="css/invite_friends.css" />
+		<title>个人信息</title>
+	</head>
+	<body>
+		
+		<!--头部-->
+		<div id="headers"></div>
+		
+		<!--中部-->
+		<div class="container content">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<img src="img/invite_friends/bag1.jpg" class="img-responsive center-block"/>
+				</div>
+				<p class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pp">
+					<span class="user">17726474914</span>
+					您还没有体验过派派的甜品哦，您可以扫描下方的二维码领取新会员体验券!
+				</p>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<img src="img/invite_friends/bag2.jpg" class="img-responsive center-block"/>
+				</div>
+			</div>
+		</div>
+		
+		<!--尾部-->
+		<div id="footers"></div>
+		
+	</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>products</title>
+		<meta name="keywords" content="生日蛋糕,星座蛋糕 ,冰激凌蛋糕,礼盒,蛋糕卡券,派悦坊" />
+    	<meta name="description" content="生日蛋糕打折活动进行中，买一送一，晒单还可获得明星单肩包" />
+    	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="js/products.js" type="text/javascript" charset="utf-8"></script>
+    	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    	<link rel="stylesheet" type="text/css" href="css/common.css"/>
+    	<link rel="stylesheet" type="text/css" href="css/products.css"/>
+    	<script src="js/import.js" type="text/javascript" charset="utf-8"></script>
+    	<link rel="stylesheet" href="http://at.alicdn.com/t/font_655866_yjmi7b9sfjyk3xr.css" />
+    	<script src="js/header.js" type="text/javascript" charset="utf-8"></script>
+    	
+	</head>
+	<body>
+		<!--头部引用-->
+		<div id="headers"></div>
+		<!--蛋糕名称部分-->
+		<div class="container main">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mm">
+					<a href="javascript:void(0)"><span class="tag-name active">太芒啦</span></a>
+					<a href="javascript:void(0)"><span class="tag-name">生日蛋糕</span></a>
+					<a href="javascript:void(0)"><span class="tag-name">母亲节精选</span></a>
+					<a href="javascript:void(0)"><span class="tag-name">星座蛋糕</span></a>
+					<a href="javascript:void(0)"><span class="tag-name">纸杯蛋糕</span></a>
+					<a href="javascript:void(0)"><span class="tag-name">意式冰激凌</span></a>
+					<a href="javascript:void(0)"><span class="tag-name">礼盒</span></a>
+					<a href="javascript:void(0)"><span class="tag-name">迷你方形垯</span></a>
+					<a href="javascript:void(0)"><span class="tag-name">经典美式派</span></a>
+					<a href="javascript:void(0)"><span class="tag-name">乳脂奶油</span></a>
+					<a href="javascript:void(0)"><span class="tag-name">水果奶油</span></a>
+					<a href="javascript:void(0)"><span class="tag-name">抹茶</span></a>
+					<a href="javascript:void(0)"><span class="tag-name">伯爵茶系列</span></a>
+					<a href="javascript:void(0)"><span class="tag-name">巧克力风味</span></a>
+					<a href="javascript:void(0)"><span class="tag-name">咖啡</span></a>
+					<a href="javascript:void(0)"><span class="tag-name">慕斯</span></a>
+					<a href="javascript:void(0)"><span class="tag-name">热门</span></a>
+					<a href="javascript:void(0)"><span class="tag-name">派对聚会</span></a>
+					<a href="javascript:void(0)"><span class="tag-name">乳酪</span></a>
+					<a href="javascript:void(0)"><span class="tag-name">全国送</span></a>
+					<a  href="javascript:void(0)" class="col-lg-2 col-lg-offset-10 more moreStyle">展开更多 <i class="iconfont">&#xe658;</i></a>
+					<a  href="javascript:void(0)" class="col-lg-2 col-lg-offset-10 up moreStyle">收起标签<i class="iconfont">&#xe65d;</i></a>
+				</div>				
+			</div>	
+		</div>
+		<!--蛋糕图片-->
+		<div class="container pic">
+			<div class="row ">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " id="content">
+					<!-- 数据拼接部分-->
+					
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<div id="footers">
+			
+		</div>
+	</body>
+</html>

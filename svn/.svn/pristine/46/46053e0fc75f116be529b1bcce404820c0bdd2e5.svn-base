@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>派悦坊,非凡创意美味蛋糕</title>
+    <meta content="蛋糕,网上订购,生日,派对,红丝绒,纸杯蛋糕" name="keywords">
+	<meta content="派悦坊,非凡创意美味蛋糕、经典纸杯蛋糕、大都会红丝绒蛋糕,均坚持选择纯进口原材料,给生日,派对带来不同惊喜，与朋友们、家人分享独一无二的美味快乐！" name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <!--<script src="js/less.js"></script>-->
+    <!--<link rel="stylesheet" href="less/index.less">-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--字体图标链接-->
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--兼容(小于ie9加载js文件)-->
+    <!--[if lt IE 9]>
+    <!--<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>-->
+    <!--<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>-->
+    <!--<![endif]&ndash;&gt;-->
+
+
+</head>
+<body>
+        <!--轮播-->
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <div class="carousel slide" id="carousel-271592"  data-interval="3000" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li class="active" data-slide-to="0" data-target="#carousel-271592">
+                        </li>
+                        <li data-slide-to="1" data-target="#carousel-271592">
+                        </li>
+                        <li data-slide-to="2" data-target="#carousel-271592">
+                        </li>
+                        <li data-slide-to="3" data-target="#carousel-271592">
+                        </li>
+                        <li data-slide-to="4" data-target="#carousel-271592">
+                        </li>                        
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img alt="" src="img/Index/banner_1.jpg" />
+                        </div>
+                        <div class="item">
+                            <img alt="" src="img/Index/banner_2.jpg" />
+                        </div>
+                        <div class="item">
+                            <img alt="" src="img/Index/banner_3.jpg" />
+                        </div>
+                        <div class="item">
+                            <img alt="" src="img/Index/banner_4.jpg" />
+                        </div>
+                        <div class="item">
+                            <img alt="" src="img/Index/banner_5.jpg" />
+                        </div>                        
+                    </div>
+                    <a class="left carousel-control" href="#carousel-271592" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                    <a class="right carousel-control" href="#carousel-271592" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

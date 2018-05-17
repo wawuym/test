@@ -1,0 +1,92 @@
+.content {
+  margin-top: 79px;
+}
+.content .product_pho {
+  display: inline-block;
+  width: 170px;
+  margin: 30px 15px 0px 0px;
+  opacity: 0.5;
+}
+.content .product_op {
+  opacity: 1;
+}
+.content .product_pq {
+  margin: 40px 0px 15px 0px;
+}
+.content .product_pq a {
+  display: inline-block;
+  padding: 3px;
+  border: 1px solid #390c20;
+  border-radius: 4px;
+  color: #390c20;
+  margin-right: 15px;
+}
+.content .hr {
+  height: 1px;
+  background: #cccccc;
+  margin: 20px 0px;
+}
+.content .product_p {
+  font-size: 11px;
+  color: #888888;
+}
+.content .product_big {
+  text-align: right;
+  margin-top: 15px;
+}
+.content .product_big span {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 14px;
+  color: white;
+  background-color: #9dc819;
+  border: 1px solid #9dc819;
+  border-radius: 4px;
+}
+.content .mail {
+  margin: 10px 0px;
+  text-align: right;
+}
+.content .mail .jian,
+.content .mail .jia {
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.content .mail .num {
+  width: 50px;
+  margin: 0 5px;
+  text-align: center;
+}
+.content .product_happy {
+  text-align: right;
+  margin-top: 15px;
+}
+.content .product_happy .now {
+  background-color: #9dc819;
+  border: 1px solid #9dc819;
+}
+.content .product_happy .shopping_car {
+  background-color: #390C20;
+  border: 1px solid #390C20;
+}
+.content .product_happy .now,
+.content .product_happy .shopping_car {
+  margin-top: 10px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 50px;
+  margin-left: 10px;
+  font-size: 14px;
+  color: white;
+  border-radius: 4px;
+}
+.content .last_hr {
+  height: 1px;
+  background: #390C20;
+  margin: 20px 15px;
+}
+.content .last_one {
+  margin-bottom: 100px;
+}

@@ -1,0 +1,49 @@
+#footer{
+    text-align: center;
+    margin-bottom: 64px;
+    .pc-left{
+        width: 240px !important;
+        float: right;
+        margin-top: 5px;
+        color: #777777;
+    }
+    .pc-left .info .iconfont{
+        color: #9dc819;
+    }
+    .pc-center{
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+        padding: 10px;
+        a{
+            color: #9dc819;
+            .iconfont{
+                font-size: 30px;
+            }
+        }
+    }
+    .pc-right{
+        padding: 10px;
+        img{
+            height: 40px;
+        }
+    }
+    .pc-addr{
+        margin-top: 10px;
+        color: #777777;
+    }
+}
+.iphone,.address{
+    display: none;
+}
+.iphone{
+    color: #9dc819;
+    a{
+        color: #9dc819;
+    }
+}
+.address{
+    margin-top: 5px;
+    padding-top: 3px;
+    font-size: 9px;
+    height: 20px;
+}

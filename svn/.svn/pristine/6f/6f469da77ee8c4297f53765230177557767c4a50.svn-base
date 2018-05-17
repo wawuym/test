@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>企业试吃</title>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    	<link rel="stylesheet" type="text/css" href="css/common.css"/>
+    	<script src="js/import.js" type="text/javascript" charset="utf-8"></script>
+    	<link rel="stylesheet" href="css/foretaste.css" />
+    	<script src="js/foretaste.js" type="text/javascript" charset="utf-8"></script>
+    
+	</head>
+	<body>
+		<!--头部-->
+		<div id="headers"></div>
+		
+		<!--中间主题内容部分-->
+		<div class="container-fluid main">
+			<div class="row padding_0">
+				<div><img src="img/foretaste/foretaste01.jpg" alt="" class="img-responsive thumbnail"/></div>
+			</div>
+			<div class="container eat">
+				<div class="apply col-xs-12">
+					<h3>派悦坊企业试吃申请</h3>
+					<p>各位楼宇精英们：</p>
+					<p>派悦坊企业试吃申请福利活动开始啦！</p>
+					<p>只要你是企业的一员，就有机会免费品尝派家爆款蛋糕！</p>
+					<p>活动现场不仅有美食，更有精英好礼等你拿！</p>
+					<p>赶快填写申请表，我们会在五个工作日内给你回复。</p>
+				</div>
+				<div class="eatNeedknow col-xs-12">
+					<h4>试吃申请须知</h4>
+					<p>· 申请人以公司或者部门为单位，推荐人数在15-30人以内，如参与人数较多，可酌情安排分批活动</p>
+					<p>· 现场需提供试吃场所如茶水间、休息室或会议室等多人共聚区域</p>
+					<p>· 需配合业务人员完成品牌宣讲和产品介绍流程</p>
+					<p>· 现场参与品尝和互动可获取会员资格和优惠码，享受活动当日订购折扣优惠以及派悦坊精美小礼物</p>
+					<p>· 试吃范围为北京、上海、天津、杭州四个城市的免费配送区内</p>
+					<p>· 收到申请后五个工作日内给予申请确认，派悦坊老会员推荐企业可享受优先回复</p>
+				</div>
+				<div class="personInfo">
+					<h4>申请人信息</h4>
+					<form class="form-horizontal" role="form">
+						<div class="form-group">
+							<label for="firstname" class="col-sm-2 control-label"><i>*</i> 姓名</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control"  required="required" >
+								<div class="input_error">姓名不能为空</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="firstname" class="col-sm-2 control-label"><i>*</i> 电话</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control text-danger"  required="required">
+								<div class="input_error">电话不能为空</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="firstname" class="col-sm-2 control-label">邮箱</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" >
+							</div>
+						</div>
+					</form>
+				</div>	
+				
+					<div class="commpanyInfo">
+						<form class="form-horizontal" role="form">
+							<h4>试吃公司信息</h4>
+							<div class="form-group">
+								<label  class="col-sm-2 control-label"><i>*</i> 城市</label>
+								<div class="col-sm-10">
+									<select class="form-control">
+										<option>北京</option>
+										<option>上海</option>
+										<option>天津</option>
+										<option>全国</option>
+									</select>
+									<div class="input_error">城市不能为空</div>
+								</div>
+							</div>
+							
+							<div class="form-group">
+								<label for="firstname" class="col-sm-2 control-label"><i>*</i> 公司名</label>
+								<div class="col-sm-10">
+									<input type="text" class="form-control" required="required">
+									<div class="input_error">公司名不能为空</div>
+								</div>
+							</div>
+							
+							<div class="form-group">
+								<label for="firstname" class="col-sm-2 control-label"><i>*</i> 公司地址</label>
+								<div class="col-sm-10">
+									<input type="text" class="form-control"required="required" >
+									<div class="input_error">公司地址不能为空</div>
+								</div>
+							</div>
+							
+							<div class="form-group">
+								<label  class="col-sm-2 control-label"><i>*</i>  公司规模</label>
+								<div class="col-sm-10">
+									<select class="form-control">
+										<option selected="selected">1-49人</option>
+										<option>50-99人</option>
+										<option>100-499人</option>
+										<option>500-999人</option>
+										<option>1000人以上</option>
+									</select>
+									<div class="input_error">公司规模不能为空</div>
+								</div>
+							</div>
+							
+							
+							<div class="form-group">
+								<label  class="col-sm-12 control-label text_left"><i>*</i>  公司采购意向: <!--<span class="many">[多选题]</span>--> </label>
+								<div class="col-md-offset-2 col-sm-offset-3 col-md-10 col-sm-9 col-xs-12">
+									<div class="col-md-4 col-sm-4 col-xs-6 ">
+										<label class="checkbox-inline">
+     									 <input type="checkbox" id="inlineCheckbox1" value="option1"> 员蛋糕卷福利
+									    </label>
+									</div>
+									<div class="col-md-4 col-sm-4 col-xs-6 ">
+										 <label class="checkbox-inline">
+									      <input type="checkbox" id="inlineCheckbox2" value="option2"> 生日会茶歇
+									    </label>
+									</div>
+									<div class="col-md-4 col-sm-4 col-xs-6 ">
+										  <label class="checkbox-inline">
+									      <input type="checkbox" id="inlineCheckbox3" value="option3"> 客户馈赠
+									    </label>
+									</div>
+									<div class="col-md-4 col-sm-4 col-xs-6 ">
+										 <label class="checkbox-inline">
+									      <input type="checkbox" id="inlineCheckbox3" value="option3"> 商务甜品台定制
+									    </label>
+									</div>
+									<div class="col-md-4 col-sm-4 col-xs-6 ">
+										<label class="checkbox-inline">
+									      <input type="checkbox" id="inlineCheckbox3" value="option3"> 其他
+									    </label>
+									</div>
+									<div class="input_error checkbox_error  col-md-12 col-sm-12 col-xs-12">请选择公司采购意向</div>
+								</div>
+							</div>
+							
+							<div class="form-group">
+								<label  class="col-sm-12 control-label text_left"><i>*</i> 试吃参与人数:  </label>
+								<div class="col-md-offset-2 col-sm-offset-3 col-md-10 col-sm-9 col-xs-12">
+									<div class="col-md-4 col-sm-4 col-xs-6 ">
+										<label class="radio-inline">
+     									 <input type="radio" id="inlineRadio1" value="option1" name="radio"> 15~20人
+									    </label>
+									</div>
+									<div class="col-md-4 col-sm-4 col-xs-6 ">
+										 <label class="radio-inline">
+									      <input type="radio" id="inlineRadio2" value="option2" name="radio"> 21~30人
+									    </label>
+									</div>
+									<div class="col-md-4 col-sm-4 col-xs-6 ">
+										  <label class="radio-inline">
+									      <input type="radio" id="inlineRadio3" value="option3" name="radio"> 30人以上
+									    </label>
+									</div>
+									<div class="input_error radio_error">请选择试吃参与人数</div>
+								</div>
+							</div>
+							
+							<div class="form-group">
+							<label  class="col-sm-12 control-label text_left"><i>*</i> 试吃品尝地:  </label>
+								<div class="col-md-offset-2 col-sm-offset-3 col-md-10 col-sm-9 col-xs-12">
+									<div class="col-md-4 col-sm-4 col-xs-6 ">
+										<label class="radio-inline">
+     									 <input type="radio" id="inlineRadio4" value="option1" name="radio1"> 会议室
+									    </label>
+									</div>
+									<div class="col-md-4 col-sm-4 col-xs-6 ">
+										 <label class="radio-inline">
+									      <input type="radio" id="inlineRadio5" value="option2" name="radio1"> 休息室
+									    </label>
+									</div>
+									<div class="col-md-4 col-sm-4 col-xs-6 ">
+										  <label class="radio-inline">
+									      <input type="radio" id="inlineRadio6" value="option3" name="radio1"> 茶水间
+									    </label>
+									</div>
+									<div class="input_error radio_error1">请选择试吃品尝地</div>
+								</div>
+							</div>
+							
+							<div class="form-group">
+								<label  class="col-sm-12 control-label text_left"><i>*</i> 试吃申请人所在部门:  </label>
+									<div class="col-md-offset-2 col-sm-offset-3 col-md-10 col-sm-9 col-xs-12">
+										<div class="col-md-4 col-sm-4 col-xs-6 ">
+											<label class="radio-inline">
+	     									 <input type="radio" id="inlineRadio1" value="option1" name="radio2">行政部门
+										    </label>
+										</div>
+										<div class="col-md-4 col-sm-4 col-xs-6 ">
+											 <label class="radio-inline">
+										      <input type="radio" id="inlineRadio2" value="option2" name="radio2"> 后勤管理部
+										    </label>
+										</div>
+										<div class="col-md-4 col-sm-4 col-xs-6 ">
+											  <label class="radio-inline">
+										      <input type="radio" id="inlineRadio3" value="option3" name="radio2"> 宣传企划部
+										    </label>
+										</div>
+										<div class="col-md-4 col-sm-4 col-xs-6 ">
+											  <label class="radio-inline">
+										      <input type="radio" id="inlineRadio3" value="option3" name="radio2"> 销售部
+										    </label>
+										</div>
+										<div class="col-md-4 col-sm-4 col-xs-6 ">
+											  <label class="radio-inline">
+										      <input type="radio" id="inlineRadio3" value="option3" name="radio2"> 工会
+										    </label>
+										</div>
+										<div class="col-md-4 col-sm-4 col-xs-6 ">
+											  <label class="radio-inline">
+										      <input type="radio" id="inlineRadio3" value="option3" name="radio2"> 其他
+										    </label>
+										</div>
+										<div class="input_error radio_error2">请选择试吃申请人所在部门</div>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label  class="col-sm-12 control-label text_left"><i>*</i>  是否是派悦坊老客户推荐:   </label>
+										<div class="col-md-offset-2 col-sm-offset-3 col-md-10 col-sm-9 col-xs-12">
+											<div class="col-md-4 col-sm-4 col-xs-6 ">
+												<label class="radio-inline">
+		     									 <input type="radio" id="inlineRadio4" value="option1" name="radio3"> 是
+											    </label>
+											</div>
+											<div class="col-md-4 col-sm-4 col-xs-6 ">
+												 <label class="radio-inline">
+											      <input type="radio" id="inlineRadio5" value="option2" name="radio3"> 否
+											    </label>
+											</div>
+											<div class="input_error  radio_error3 col-md-12 col-sm-12 col-xs-12">请选择是否为老顾客推荐</div>
+										</div>
+								</div>
+								
+
+							<div class="col-md-4 col-sm-4 col-xs-12 col-md-offset-4 col-sm-offset-4 text-center submit">
+								<button type="button" class="btn btn-success col-xs-12 col-sm-12 col-md-12" id="btn" >提交</button>
+							</div>
+										
+								
+								
+							</form>	
+						</div>
+						
+					</div>
+					
+					
+				
+				
+			</div>
+		</div>
+		
+		
+		<!--尾部-->
+		<div id="footers"></div>
+	</body>
+</html>

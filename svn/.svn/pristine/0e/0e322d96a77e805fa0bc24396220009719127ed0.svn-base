@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=EDGE" />
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="font_649150_vdbaicywran0cnmi/iconfont.css" />
+        <link rel="stylesheet" href="css/activity_3.css" />
+        <script src="js/import.js"></script>
+		<title>派悦坊-派悦-悦坊</title>
+	</head>
+	<body>
+		
+		<!--头部-->
+		<div id="headers"></div>
+		
+		<!--中部-->
+		<div class="container content">
+			<div class="row">
+				<h3 class="col-lg-12 col-sm-12 col-md-12 col-xs-12">活动细则：</h3>
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+					<img src="img/activities/acty_bag5.jpg" class="img-responsive" style="width: 100%;"/>
+				</div>
+				<h3 class="col-lg-12 col-sm-12 col-md-12 col-xs-12"><b>活动规则：</b></h3>
+				<p class="col-lg-12 col-sm-12 col-md-12 col-xs-12 acty_p">
+					1、活动时间：即日起至2017年12月31日
+				</p>
+				<p class="col-lg-12 col-sm-12 col-md-12 col-xs-12 acty_p">
+					2、所有派悦坊的客户（曾经购买过派悦坊产品）都可以来参加活动，只需点
+					击下面的链接，登录后系统会自动生成一条推荐链接。您只需要将推荐链接
+					发送给想要推荐的新朋友（短信、微信、邮件）即可参加活动。
+				</p>
+				<p class="col-lg-12 col-sm-12 col-md-12 col-xs-12 acty_p">
+					3、被推荐人收到派悦坊老客户发送的推荐链接后，点击链接并在官网注册，<span style="color: red;"><b>
+					只要被推荐人所使用的手机号码从未购买过派悦坊产品</b></span>并成功注册，推荐人和被推
+					荐人即可同时得到一张优惠券，分别是<b>“老客户优惠券（价值20RMB）”和“新
+					客户体验券（价值20RMB）”。</b>
+				</p>
+				<p class="col-lg-12 col-sm-12 col-md-12 col-xs-12 acty_p">
+					4、<b>“新客户体验券”</b>在被推荐人注册成功后可直接获得，只能使用一次，满150元
+					即可直接抵用20元（限派悦坊官网、官方微信、电话、门店使用）。
+				</p>
+				<p class="col-lg-12 col-sm-12 col-md-12 col-xs-12 acty_p">
+					5、<b>“老客户优惠券”</b>获得后处在未激活状态，在被推荐人第一次购买完成后才能激活
+					；每一名老会员可推荐多人参加活动，并获得多张“老客户优惠券”；“老客户优惠券
+					”可直接在官网购物时抵用现金，如有多张优惠券可以<span style="color: red;"><b>叠加使用</b></span>
+					（限派悦坊官网、官方微信、电话、门店使用）。
+				</p>
+				<p class="col-lg-12 col-sm-12 col-md-12 col-xs-12 acty_p">
+					6、每张优惠券的有效期均为一个月，但是计算方法不同：“新客户体验券”从注册当
+					日开始计算；“老客户优惠券”从被激活当日开始计算。
+				</p>
+				<p class="col-lg-12 col-sm-12 col-md-12 col-xs-12 acty_p">
+					7、优惠劵在<span style="color: red;"><b>购物车提交订单页面</b></span>直接使用（老客户优惠券在会员优惠栏选择使用；
+					新客户体验券在使用优惠券栏选择使用），如有多张“老客户优惠券”，使用优惠券的
+					总金额不可高于订单的产品总金额。
+				</p>
+				<p class="col-lg-12 col-sm-12 col-md-12 col-xs-12 acty_p">
+					<a href="javascript:void(0)">想了解更多活动详情？</a>
+				</p>
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+					<img src="img/activities/acty_bag2.jpg" class="acty_how"/>
+					<span>我是老客户，</span>
+					<a href="javascript:void(0)">参加活动请猛戳！</a>
+				</div>
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+					<img src="img/activities/acty_bag3.jpg" class="acty_how"/>
+					<span>我是新客户，也想参加活动！请按照以下操作：</span>
+				</div>
+				<p class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+					使用手机扫描下方二维码。
+				</p>
+				<p class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+					 分享页面，让你的派迷小伙伴给你一个邀请链接吧！
+				</p>
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 content_last_box">
+					<img src="img/activities/acty_bag6.jpg" class="img-responsive"/>
+				</div>
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 content_box">
+					<ul class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+						<li>
+							<a href="activity_1.html">第一页</a>
+						</li>
+						<li>
+							<a href="activity_2.html">上一页</a>
+						</li>
+						<li>
+							<a href="activity_1.html">1</a>
+						</li>
+						<li>
+							<a href="activity_2.html">2</a>
+						</li>
+						<li>
+							<a href="activity_3.html">3</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!--尾部-->
+		<div id="footers"></div>
+		
+	</body>
+</html>

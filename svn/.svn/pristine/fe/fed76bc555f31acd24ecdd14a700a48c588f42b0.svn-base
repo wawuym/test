@@ -1,0 +1,22 @@
+body{
+	font-family: "黑体", "Arial", "华文细黑", STHeiti Light, STXihei, "华文细黑", SimHei !important;
+}
+#page-container {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+p{
+    text-indent:2em;    /*每个P段落，首行空出两个空格，即缩进两个字符*/
+    margin: 0 0 10px;
+    color: #390C20;
+    font-size: 14px;
+}
+/*.Pb_About{
+	width:870px;
+	height: 280px;
+	margin: auto;
+	font-size: 14px;
+	color: #333333;
+	!important;
+}*/

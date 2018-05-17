@@ -1,0 +1,133 @@
+.topbar li{
+	font-size: 11px;
+	color:#390C20;
+	
+}
+.div_20_width{
+	width:20%;
+}
+.topbar li{
+	box-sizing: border-box;
+	padding-bottom: 13px;
+	padding-top: 13px;
+}
+.show1{
+	background:#9DC819 ;
+	border-radius: 5px;
+	color: white !important;
+}
+.topbar,.tagSmallShow,.phone{
+	display: none;
+}
+@media only screen and (max-width: 760px) {
+	/*屏幕小于768的时候 topbar出现*/
+	.topbar,.tagSmallShow,.phone{
+		display: block;  
+	}
+	.rules{
+		padding: 0px;
+		box-sizing: border-box;
+		padding-bottom: 25px;
+		border-bottom: 5px solid #C0C0C0;
+	}
+	.rules:last-child{
+		border: none;
+	}
+	.titleBigHidden{
+		display: none;
+	}
+	.mWord{
+		font-size: 12px;
+		color: #808080;
+	}
+	.main{
+		box-sizing: border-box;
+		padding-top:10px !important;
+		
+	}
+	.topbar{
+		margin-top:70px;
+	}
+	.tl{
+		padding-top: 20px;
+	}
+	
+	
+}
+/*会员积分条例*/
+.pages-container{
+	width: 70%;
+	margin-left: 15%;
+}
+
+.tar{
+	background:#9DC819 ;
+	z-index: 5;
+}
+.main span{
+	color:#390C20;
+	font-size: 18px;
+	font-weight: bold;
+	box-sizing: border-box;
+	padding: 10px 0px;
+	display: inline-block;
+}
+strong{
+	
+	font-size: 110%;
+	margin-right: 5px;
+	background:#390C20;
+
+}
+h3,.score{
+	
+	box-sizing: border-box;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #CCCCCC;
+}
+.registerBtn{
+	background: #9DC819 ;
+	margin-top: 10px;
+	color: white;
+}
+.phone{
+	
+	margin-top: 55px;
+}
+
+.rules{
+	margin-bottom: 25px;
+}
+.imgtitle_100{
+	width:100px;
+	
+}
+.img_title1{
+	width:50px;
+	box-sizing: border-box;
+}
+.word_title1{	
+			vertical-align:bottom;
+}
+.pageTitle{
+	border-bottom: 2px solid #CCCCCC;
+	padding-bottom: 5px;
+	
+}
+.mWord{
+	box-sizing: border-box;
+	padding-top:25px;
+}
+.phone p:first-child{
+	color: #87B82A ;
+}
+.phone p:nth-child(2){
+	color: #330000;
+	font-family: simhei;
+	font-size: 12px;
+}
+.main{
+	box-sizing: border-box;
+	padding-top:70px;
+	padding-bottom: 40px;
+}

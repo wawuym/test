@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=EDGE" />
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="font_649150_vdbaicywran0cnmi/iconfont.css" />
+        <script src="js/import.js"></script>
+        <link rel="stylesheet" href="css/user.css" />
+       
+		<title>个人中心</title>
+	</head>
+	<body>
+		
+		<!--头部-->
+		<div id="headers"></div>
+		
+		<!--中部-->
+		<div class="container content_box">
+			<div class="row">
+				<div class="col-lg-12 box_right">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 box_1_1">
+							<h4>欢迎来到派悦坊</h4>
+							<p>
+								<a href="change_mess.html">修改个人信息</a>
+							</p>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding: 20px 0px;">
+							<div class="funny col-lg-3 col-md-12">
+								<p>有效期内积分</p>
+								<span>100</span>
+							</div>
+							<div class="col-lg-9 col-md-12">
+								<div class="col-lg-12 content_p">
+									<h4>您好，<span class="user">17726474914</span></h4>
+									<h1>您目前是普通会员</h1>
+								</div>
+							</div>
+						</div>
+						<p class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="color: gray;">再购买满 600 元升级为银卡会员</p>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="list"></div>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 logo">
+							<a href="#" class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+								<img src="img/user/bag1.jpg" class="img-responsive center-block"/>
+							</a>
+							<a href="#" class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+								<img src="img/user/bag2.jpg" class="img-responsive center-block"/>
+							</a>
+							<a href="#" class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+								<img src="img/user/bag3.jpg" class="img-responsive center-block"/>
+							</a>
+							<a href="#" class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+								<img src="img/user/bag4.jpg" class="img-responsive center-block"/>
+							</a>
+						</div>
+						<div class="container">
+							<h4 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 user_mess">个人信息</h4>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mess_box">姓名：<span class="name">17726474914</span></div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mess_box">会员卡号：<span class="number">0000612459</span></div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mess_box">电话号码：<span class="number">17726474914</span></div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mess_box">生日：<span class="birth"></span></div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mess_box">亲友1生日：<span class="birth_1"></span></div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mess_box">亲友2生日：<span class="birth_1"></span></div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mess_box">电子邮箱：<span class="email"></span></div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 change_mess">
+							<a href="change_mess.html">修改个人信息 >></a>
+						</div>
+						<div class="container">
+							<h4 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 special">特殊要求</h4>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 special_box">无</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 change_special">
+							<a href="change_mess.html">修改特殊要求 >></a>
+						</div>
+						<div class="container">
+							<h4 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 power">我的会员权益</h4>
+							<ul class="col-lg-12 col-md-12 col-sm-12 col-xs-12 power_ul">
+								<li>
+									<a href="invite_friends.html">邀请好友</a>
+									注册成功并完成订单后奖励100积分
+								</li>
+								<li>
+									生日眼镜／单
+								</li>
+							</ul>
+						</div>
+						<div class="container">
+							<h4 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 user_ma">我的优惠码</h4>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 user_ma_box">无</div>
+						<div class="container">
+							<h4 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bye">
+								<a href="#">退出账户</a>
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--尾部-->
+		<div id="footers"></div>
+		
+	</body>
+</html>

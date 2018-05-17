@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=EDGE" />
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+     	<script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/header.css" />
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="font_649150_vdbaicywran0cnmi/iconfont.css" />
+        <script src="js/header.js"></script>
+        <script src="js/header_jump.js" type="text/javascript" charset="utf-8"></script>
+		<title>派悦坊-派悦-悦坊</title>
+	</head>
+	<body>
+		
+		<div id="header" class="navbar-fixed-top">
+			<div class="container-fluid header navbar navbar-inverse navbar-fixed-top">
+				<div class="down_list container-fluid">
+					<div class="row">
+						<h4 class="col-xs-12">当前城市:全国</h4>
+						<div class="col-xs-4">
+							<a href="javascript:void(0)">
+								<i class="iconfont col-xs-12 header_ico">&#xe615;</i>
+								<p class="col-xs-12 header_p">切换城市</p>
+							</a>
+						</div>
+						<div class="col-xs-4">
+							<a href="user.html">
+								<i class="iconfont col-xs-12 header_ico">&#xe60b;</i>
+								<p class="col-xs-12 header_p">个人中心</p>
+							</a>
+						</div>
+						<div class="col-xs-4">
+							<a href="products.html">
+								<i class="iconfont col-xs-12 header_ico">&#xe645;</i>
+								<p class="col-xs-12 header_p">产品搜索</p>
+							</a>
+						</div>
+						<div class="col-xs-4">
+							<a href="member.html">
+								<i class="iconfont col-xs-12 header_ico">&#xe613;</i>
+								<p class="col-xs-12 header_p">关于</p>
+							</a>
+						</div>
+						<div class="col-xs-4">
+							<a href="activity_1.html">
+								<i class="iconfont col-xs-12 header_ico">&#xe790;</i>
+								<p class="col-xs-12 header_p">活动</p>
+							</a>
+						</div>
+						<div class="col-xs-4">
+							<a href="dessert_table.html">
+								<i class="iconfont col-xs-12 header_ico">&#xe63b;</i>
+								<p class="col-xs-12 header_p">企业合作</p>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+			        <div class="row">
+			        	<div class="header_btn col-xs-2">
+							<a href="#">
+								<i class="iconfont">&#xe61e;</i>
+							</a>
+						</div>
+						<div class="header-logo col-lg-3 col-sm-3 col-md-3 col-xs-7">
+							<a href="index.html">
+								<img src="img/he-fo/logo.png" class="img-responsive logo center-block"/>
+							</a>
+						</div>
+						<div class="header-rgt-box col-xs-3">
+							<a href="#" class="col-xs-4">En</a>
+							<a href="#" class="col-xs-4">
+								<i class="iconfont">&#xe612;</i>
+							</a>
+							<a href="#" class="col-xs-4">
+								<i class="iconfont">&#xe6f4;</i>
+							</a>
+						</div>
+						<ul class="nav navbar-nav col-lg-6 col-sm-6 col-md-6 ul-box">
+							<li>
+								<a href="javascript:void(0)" class="ul-box-a">English</a>
+							</li>
+							<li>
+								<a href="Store.html" class="ul-box-a">门店</a>
+							</li>
+							<li>
+								<a href="activity_1.html" class="ul-box-a">活动</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)" class="dropdown-toggle ul-box-a" data-toggle="dropdown">
+									<i class="iconfont pppp_ico">&#xe612;</i>
+									<span class="pppp">全国</span>
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu mms">
+									<li>
+										<a href="javascript:void(0)" class="where">北京</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" class="where">上海</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" class="where">深圳</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" class="where">成都</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="javascript:void(0)" class="dropdown-toggle ul-box-a" data-toggle="dropdown">
+									关于
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="member.html">会员</a>
+									</li>
+									<li>
+										<a href="cake_coupon.html">蛋糕卡券</a>
+									</li>
+									<li>
+										<a href="delivery_notice.html">配送须知</a>
+									</li>
+									<li>
+										<a href="Activity_Pb.html">关于派悦坊</a>
+									</li>
+									<li>
+										<a href="Activity_LovePb.html">爱上派悦坊</a>
+									</li>
+									<li>
+										<a href="Activity_JoinPb.html">加入派悦坊</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="javascript:void(0)" class="dropdown-toggle ul-box-a" data-toggle="dropdown">
+									产品搜索
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu product_list">
+									<li>
+										<a href="#">太芒啦</a>
+									</li>
+									<li>
+										<a href="#">生日蛋糕</a>
+									</li>
+									<li>
+										<a href="#">星座蛋糕</a>
+									</li>
+									<li>
+										<a href="#">纸杯蛋糕</a>
+									</li>
+									<li>
+										<a href="#">意式冰激凌</a>
+									</li>
+									<li>
+										<a href="#">礼盒</a>
+									</li>
+									<li>
+										<a href="#">迷你方形垯</a>
+									</li>
+									<li>
+										<a href="cake_coupon.html">蛋糕卡券</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="javascript:void(0)" class="dropdown-toggle ul-box-a" data-toggle="dropdown">
+									企业合作
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="dessert_table.html">甜品台</a>
+									</li>
+									<li>
+										<a href="foretaste.html">企业试吃</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right lo-re col-lg-2 col-sm-2 col-md-2 ul2-box">
+							<li class="show">
+								<a href="login.html">登录</a>
+							</li>
+							<li class="hide">
+								<a href="register.html">注册</a>
+							</li>
+							<li>
+								<div class="aaaa" style="position: absolute; border: 1px solid white;"></div>
+								<a href="shopping_car.html">
+									<i class="iconfont">&#xe600;</i>
+								</a>
+							</li>
+						</ul>
+						<ul class="navbar-fixed-bottom ul3">
+							<li class="col-xs-4">
+								<a href="index.html">
+									<i class="iconfont">&#xe648;</i>
+								</a>
+							</li>
+							<li class="col-xs-4">
+								<a href="user.html">
+									<i class="iconfont">&#xe60a;</i>
+								</a>
+							</li>
+							<li class="col-xs-4">
+								<a href="shopping_car.html">
+									<i class="iconfont">&#xe600;</i>
+								</a>
+							</li>
+						</ul>
+					</div>	
+				</div>
+			</div>	
+		</div>
+		
+		
+		
+		
+	</body>
+</html>

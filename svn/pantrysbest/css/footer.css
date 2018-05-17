@@ -1,0 +1,50 @@
+#footer {
+  text-align: center;
+  margin-bottom: 64px;
+}
+#footer .pc-left {
+  width: 240px !important;
+  float: right;
+  margin-top: 5px;
+  color: #777777;
+}
+#footer .pc-left .info .iconfont {
+  color: #9dc819;
+}
+#footer .pc-center {
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  padding: 10px;
+}
+#footer .pc-center a {
+  color: #9dc819;
+}
+#footer .pc-center a .iconfont {
+  font-size: 30px;
+}
+#footer .pc-right {
+  padding: 10px;
+}
+#footer .pc-right img {
+  height: 40px;
+}
+#footer .pc-addr {
+  margin-top: 10px;
+  color: #777777;
+}
+.iphone,
+.address {
+  display: none;
+}
+.iphone {
+  color: #9dc819;
+}
+.iphone a {
+  color: #9dc819;
+}
+.address {
+  margin-top: 5px;
+  padding-top: 3px;
+  font-size: 9px;
+  height: 20px;
+}

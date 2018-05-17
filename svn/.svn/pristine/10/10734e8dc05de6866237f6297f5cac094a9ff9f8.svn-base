@@ -1,0 +1,469 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<title>派悦坊,非凡创意美味蛋糕</title>
+	<meta content="蛋糕,网上订购,生日,派对,红丝绒,纸杯蛋糕" name="keywords">
+	<meta content="派悦坊,非凡创意美味蛋糕、经典纸杯蛋糕、大都会红丝绒蛋糕,均坚持选择纯进口原材料,给生日,派对带来不同惊喜，与朋友们、家人分享独一无二的美味快乐！" name="description">
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="keywords" content="">
+	<!--  Icon -->
+	<link rel="shortcut icon" href="img/ico.png" type="image/x-icon">
+	<!-- Css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/index.css">
+    <!--字体图标链接-->
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--兼容(小于ie9加载js文件)-->
+    <!--[if lt IE 9]>
+    <!--<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>-->
+    <!--<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>-->
+    <!--<![endif]&ndash;&gt;-->
+</head>
+<body>
+	<!--网页头部-->
+	<script src="js/head.js"></script>
+	<!--首页轮播-->
+	<script src="js/banner.js"></script>
+	<!-- 网页内容-->
+	<main id="top">
+		<!-- 图片导航-->
+		<div class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 pro">
+						<div class="thumbnail">
+							<img alt="223x222" src="img/index/nav_1.png" class="img-responsive img-thumbnail " title="生日蛋糕">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 pro">
+						<div class="thumbnail">
+							<img alt="223x222" src="img/index/nav_2.png" class="img-responsive img-thumbnail " title="企业试吃">
+						</div>
+					</div>					
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 pro" >
+						<div class="thumbnail">
+							<img alt="223x222" src="img/index/nav_3.png" class="img-responsive img-thumbnail " title="全国送">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 pro">
+						<div class="thumbnail">
+							<img alt="223x222" src="img/index/nav_4.png" class="img-responsive img-thumbnail " title="意式冰激凌">
+						</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+		<!-- 图片导航完-->
+		<!--样品展示-->
+		<div class="section">
+			<div class="container">
+				<!-- 样品展示标题-->
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="area-heading text-center">
+							<h2 class="area-title">商品展示</h2>
+						</div>
+					</div>                                
+				</div>
+				<!-- 样品展示导航-->
+				<div class="filters-wrap">
+					<div class="text-center">
+						<a class="active" href="#" data-filter="*">全部</a>
+						<a href="#" data-filter=".C_Ifestival">节日</a>
+						<a href="#" data-filter=".C_Pc">冰淇淋</a>
+						<a href="#" data-filter=".C_Giftbox">礼盒</a>
+					</div>
+				</div>
+				<!-- 样品展示图片区域 -->
+				<div class="portfolio-masonry-wrapper" data-col="3" data-gutter="30">
+					<div class="portfolio-list">
+						<article class="portfolio-item-wrap C_Ifestival">
+							<div class="portfolio-item">
+								<div class="portfolio-img">
+									<img src="img/index/c_show_1.jpeg" alt="" style="width: 100%;"class="img-thumbnail">
+									<span class="img_id">1</span>
+								</div>
+								<div class="portfolio-content-wrap">
+									<div class="potfolio-content">
+										<h4 class="portfolio-title">
+											芒果乳酪慕斯蛋糕 
+										</h4>
+										<h4 class="portfolio-title portfolio-title-b">
+											¥249/369/589/799
+										</h4>										
+										<div class="portfolio-categories">
+											<a href="#">了解详情</a>
+										</div>										
+									</div>
+								</div>
+							</div>
+						</article>
+						<article class="portfolio-item-wrap C_Ifestival">
+							<div class="portfolio-item">
+								<div class="portfolio-img">
+									<img src="img/index/c_show_2.jpeg" alt=""class="img-thumbnail">
+									<span class="img_id">21</span>
+								</div>
+								<div class="portfolio-content-wrap">
+									<div class="potfolio-content">
+										<h4 class="portfolio-title">
+											大都会红丝绒
+										</h4>
+										<h4 class="portfolio-title portfolio-title-b">
+											¥219/319/499/719
+										</h4>										
+										<div class="portfolio-categories">
+											<a href="#">了解详情</a>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</article>
+						<article class="portfolio-item-wrap C_Ifestival">
+							<div class="portfolio-item">
+								<div class="portfolio-img">
+									<img src="img/index/c_show_3.jpeg" alt=""class="img-thumbnail">
+									<span class="img_id">37</span>
+								</div>
+								<div class="portfolio-content-wrap">
+									<div class="potfolio-content">
+										<h4 class="portfolio-title">
+											纯脆提拉米苏
+										</h4>
+										<h4 class="portfolio-title portfolio-title-b">
+											¥299
+										</h4>										
+										<div class="portfolio-categories">
+											<a href="#">了解详情</a>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</article>
+						<article class="portfolio-item-wrap C_Pc">
+							<div class="portfolio-item">
+								<div class="portfolio-img">
+									<img src="img/index/c_show_4.jpeg" alt=""class="img-thumbnail">
+									<span class="img_id">48</span>
+								</div>
+								<div class="portfolio-content-wrap">
+									<div class="potfolio-content">
+										<h4 class="portfolio-title">
+											金牛座金砖礼盒
+										</h4>
+										<h4 class="portfolio-title portfolio-title-b">
+											¥128
+										</h4>										
+										<div class="portfolio-categories">
+											<a href="#">了解详情</a>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</article>
+						<article class="portfolio-item-wrap C_Pc">
+							<div class="portfolio-item">
+								<div class="portfolio-img">
+									<img src="img/index/c_show_5.jpeg" alt=""class="img-thumbnail">
+									<span class="img_id">67</span>
+								</div>
+								<div class="portfolio-content-wrap">
+									<div class="potfolio-content">
+										<h4 class="portfolio-title">
+											纸杯蛋糕礼盒
+										</h4>
+										<h4 class="portfolio-title portfolio-title-b">
+											¥150
+										</h4>										
+										<div class="portfolio-categories">
+											<a href="#">了解详情</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</article>
+						<article class="portfolio-item-wrap C_Pc">
+							<div class="portfolio-item">
+								<div class="portfolio-img">
+									<img src="img/index/c_show_6.jpeg" alt=""class="img-thumbnail">
+									<span class="img_id">70</span>
+								</div>
+								<div class="portfolio-content-wrap">
+									<div class="potfolio-content">
+										<h4 class="portfolio-title">
+											迷你挞礼盒
+										</h4>
+										<h4 class="portfolio-title portfolio-title-b">
+											¥190
+										</h4>										
+										<div class="portfolio-categories">
+											<a href="#">了解详情</a>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</article>
+						<article class="portfolio-item-wrap C_Giftbox">
+							<div class="portfolio-item">
+								<div class="portfolio-img">
+									<img src="img/index/c_show_7.jpeg" alt=""class="img-thumbnail">
+									<span class="img_id">77</span>
+								</div>
+								<div class="portfolio-content-wrap">
+									<div class="potfolio-content">
+										<h4 class="portfolio-title">
+											综合莓果乳酪派
+										</h4>
+										<h4 class="portfolio-title portfolio-title-b">
+											¥249
+										</h4>										
+										<div class="portfolio-categories">
+											<a href="#">了解详情</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</article>
+						<article class="portfolio-item-wrap  C_Giftbox">
+							<div class="portfolio-item">
+								<div class="portfolio-img">
+									<img src="img/index/c_show_8.jpeg" alt=""class="img-thumbnail">
+									<span class="img_id">74</span>
+								</div>
+								<div class="portfolio-content-wrap">
+									<div class="potfolio-content">
+										<h4 class="portfolio-title">
+											椰风密语派
+										</h4>
+										<h4 class="portfolio-title portfolio-title-b">
+											¥199/249
+										</h4>										
+										<div class="portfolio-categories">
+											<a href="#">了解详情</a>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</article>
+						<article class="portfolio-item-wrap C_Giftbox">
+							<div class="portfolio-item">
+								<div class="portfolio-img">
+									<img src="img/index/c_show_9.jpeg" alt=""class="img-thumbnail">
+									<span class="img_id">73</span>
+								</div>
+								<div class="portfolio-content-wrap">
+									<div class="potfolio-content">
+										<h4 class="portfolio-title">
+											草莓布丁派
+										</h4>
+										<h4 class="portfolio-title portfolio-title-b">
+											¥269
+										</h4>										
+										<div class="portfolio-categories">
+											<a href="#">了解详情</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</article>						
+					</div>
+					<div class="classic-load-button text-center">
+						<a id="classic-load-button-link" href="#" data-load="1">浏览更多</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 商品展示完毕 -->
+			
+		<!-- 关于派悦坊数据 -->
+		
+		<section class="section mt blog-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="counter-item text-center">
+							<div class="end-value">
+								<i>250</i>
+								<span>k</span>
+							</div>
+							<h4>消费者的信赖</h4>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="counter-item text-center">
+							<div class="end-value">
+								<i>18</i>
+							</div>
+							<h4>城市拥有分店</h4>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="counter-item text-center">
+							<div class="end-value">
+								<i>560</i>
+								<span>+</span>
+							</div>
+							<h4>种产品供你选择</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--关于数据完-->
+		<!-- 人气商品 -->
+		<section class="pt-40 pb45">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="area-heading text-center">
+							<h2 class="area-title">人气产品</h2>
+						</div>
+					</div>                                
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="blog-wrap blog-wrap-mas">
+							<span class="img_id">47</span>
+							<div class="blog-thumb">
+								<img src="img/index/h_show_1.jpg" alt="">
+							</div>
+							<div class="post-header clearfix">
+								<h2 class="post-title clearfix">
+									<a href="javascript:void(0)" class="animsition-link">金牛座布朗尼蛋糕冰淇淋</a>
+								</h2>
+								<ul class="post-meta-sm clearfix">
+									<li>
+										<span class="post-time">¥299</span>
+									</li>
+									<li>
+										<a href="#">冰淇淋</a>
+									</li>
+								</ul>
+							</div>
+							<div class="post-content clearfix">
+								<p>采用升级研发的冰淇淋配方，创作了本季金牛座布朗尼蛋糕意式冰淇淋，足可见我们对金牛座的爱。底部浓醇的布朗尼蛋糕胚，配合香浓的意式牛奶冰淇淋和由单一豆源手工制巧克力为原料的意式巧克力冰淇淋融合而成的主体，口感香甜不腻，浓郁不失真味。</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="blog-wrap blog-wrap-mas">
+								<span class="img_id">2</span>
+							<div class="blog-thumb">
+								<img src="img/index/h_show_2.jpg" alt="">
+							</div>
+							<div class="post-header clearfix">
+								<h2 class="post-title clearfix">
+									<a href="javascript:void(0)" class="animsition-link">芒果空气感蛋糕</a>
+								</h2>
+								<ul class="post-meta-sm clearfix">
+									<li>
+										<span class="post-time">¥249/369/589/799</span>
+									</li>
+									<li>
+										<a href="#">生日蛋糕</a>
+									</li>
+								</ul>
+							</div>
+							<div class="post-content clearfix">
+								<p>三层香甜可口的芒果奶油、三层松软可口的香草戚风蛋糕胚，夹着自制芒果酱和新鲜芒果果肉。蛋糕顶上用薄荷叶、新鲜蓝莓、白巧克力、开心果点缀，赏心悦目的色彩搭配，提醒我们春天到来！一勺入口，口感轻盈舒适、无负担，如丝般春风拂面。</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="blog-wrap blog-wrap-mas">
+							<span class="img_id">19</span>
+							<div class="blog-thumb">
+								<img src="img/index/h_show_3.jpg" alt="">
+							</div>
+							<!-- End blog-thumb -->
+							<div class="post-header clearfix">
+								<h2 class="post-title clearfix">
+									<a href="javascript:void(0)" class="animsition-link">红柚慕斯蛋糕</a>
+								</h2>
+								<ul class="post-meta-sm clearfix">
+									<li>
+										<span class="post-time">¥249/369/589/799</span>
+									</li>
+									<li>
+										<a href="#">水果蛋糕</a>
+									</li>
+								</ul>
+							</div>
+							<div class="post-content clearfix">
+								<p>看见她就感受到了明媚，西柚的气息扑面而来，仿佛只是闻着就能清热解燥。切开更令人惊艳，掰着手指数，不同色泽与质地的内在，有5层之多！底层是巧克力脆片制成的脆底，其上依次是乳酪慕斯蛋糕胚、巧克力慕斯、西柚果冻、西柚慕斯。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- 人气商品完 -->
+		<!-- 广告可滑动背景 -->
+		<section class="testimonial-area">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="testimonial-wrap jarallax overlay-dark" style="background-image: url('img/bg/bg.jpg');">
+						<div class="col-md-8 col-md-offset-2">
+							<div class="testimonial-carousel">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide testimonial-item">
+										<blockquote class="testimonial-content">
+											<i class="fa fa-quote-left" aria-hidden="true"></i>生活有时微苦，戒不掉一口甜蜜
+											<i class="fa fa-quote-right" aria-hidden="true"></i>
+										</blockquote>
+										<h4 class="author-person">Pantry's Best</h4>
+										<span class="testimonial-author">派悦坊,派送喜悦</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- 广告可滑动背景完 -->		
+		<!-- 关于派悦坊 -->
+		<section class="pricing-area pt40 pb30">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 cursor">
+						<div class="area-heading text-center">
+							<h2 class="area-title">关于派悦坊</h2>
+						</div>
+					</div>                                
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12col-sm-12 col-xs-12 footer_pc cursor">				
+						<a href="Activity_JoinPb.html"><img src="img/index/footer_1.jpeg" class="img-responsive"></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12col-sm-12 col-xs-12 footer_pc cursor">				
+						<a href="Integral.html"><img src="img/index/footer_2.jpeg" class="img-responsive"></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12col-sm-12 col-xs-12 footer_pc cursor">				
+						<a href="Store.html"><img src="img/index/footer_3.jpeg" class="img-responsive"></a>
+					</div>
+				</div>
+			</div>
+		</section> 
+	</main>
+<!--引用外部JS-->
+<script src="js/foot.js"></script>>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/libs.js"></script>
+<script src="js/main.js"></script>
+<script src="js/script.js"></script>
+<script src="js/pro_jump.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/header_jump.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/back_t.js"></script>
+<script>
+	
+</script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>甜品台</title>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    	<link rel="stylesheet" type="text/css" href="css/common.css"/>
+    	<link rel="stylesheet" href="css/dessert_table.css" />
+    	<script src="js/dessert_table.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="js/import.js" type="text/javascript" charset="utf-8"></script>
+    	
+	</head>
+	<body>
+		<div id="headers">
+			
+		</div>
+		<div class="container main">
+			<div class="row">
+					<!--缩小后的导航栏-->
+				<div class="col-lg-12 padding_0">
+					<ul class="clearfix text-center topbar">
+						<li class=" col-sm-2 col-xs-2 div_20_width padding_0 "><a href="index.html">首页</a></li>
+						<li class=" col-sm-2 col-xs-2 div_20_width padding_0 show1 tbchange">婚礼</li>
+						<li class=" col-sm-2 col-xs-2 div_20_width padding_0 tbchange">派对</li>
+						<li class="col-sm-2 col-xs-2 div_20_width padding_0 tbchange">茶歇</li>
+						<li class="col-sm-2 col-xs-2 div_20_width padding_0"><a href="Activity_Pb.html">更多</a></li>
+					</ul>
+				</div>
+				<!--tab切换-->
+				<div class="col-lg-2 col-md-2 tabp">
+					<ul class="tab padding_0 img-responsive thumbnail">
+						<li><a href="javascript:void(0)" class="addclass">婚礼</a></li>
+						<li><a href="javascript:void(0)">派对</a></li>
+						<li><a href="javascript:void(0)">茶歇</a></li>
+					</ul>
+				</div>
+				<!--轮播-->
+				<div class="col-lg-10 col-md-10">	
+					<!--图片部分-->
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="carousel slide" id="carousel-813480" data-ride="carousel" data-interval="3000">
+							<ol class="carousel-indicators index">
+								<li data-slide-to="0" data-target="#carousel-813480">
+								</li>
+								<li data-slide-to="1" data-target="#carousel-813480" class="active">
+								</li>
+								<li data-slide-to="2" data-target="#carousel-813480">
+								</li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="item">
+									<img alt="" src="img/dessert_table/wedding/banner01.jpg" id="bannerPic01"  class="img-responsive thumbnail"/>	
+								</div>
+								<div class="item active">
+									<img alt="" src="img/dessert_table/wedding/banner02.jpg" id="bannerPic02" class="img-responsive thumbnail"/>	
+								</div>
+								<div class="item">
+									<img alt="" src="img/dessert_table/wedding/banner03.jpg" id="bannerPic03" class="img-responsive thumbnail"/>
+								</div>
+							</div> 	
+						</div>
+					</div>
+				
+					<!--介绍部分-->
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Introduced ">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><h3 id="tabTitle">婚礼  甜品台定制</h3></div>
+						<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+							<h6>产品包含</h6>
+							<p><img src="img/dessert_table/wedding/tip01.jpg" alt="" class="thumbnail img-responsive" id="tabicon"/></p>
+							<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 padding_0 email">
+								<p>邮箱： ka@pantrysbest.com</p>
+								<p>甜品台专线服务时间： 周一至周五 9：00 - 18：00</p>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 contantUs ">
+								<button type="button" class="btn btn-primary getContant" data-toggle="modal" data-target="#mymodal-data">联系销售</button>
+								<!--弹框-->
+								<div class="modal fade modal_align" id="mymodal-data" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" style="display: none;">
+									<div class="modal-dialog modal-sm mymodal">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title text-center">联系方式</h4>
+											</div>
+											<div class="modal-body padding_0">
+												<p class="address text-center">上海/杭州：13764019781</p>
+												<p class="text-center">上海/杭州：13764019781</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 needknow">
+							<h6>定制须知</h6>
+							<p>服务内容：甜品台方案、器皿出租、摆台服务、物流配送</p>
+							<p>预定时间：根据需求的复杂程度，请至少提前两周预定</p>
+							<p>个性定制：非常规产品的个性定制请咨询销售人员</p>
+						</div>
+						
+						<!--缩小后显示-->
+						
+							
+						
+						<div class=" col-sm-12 col-xs-12 emailShow">
+								<h6>联系我们</h6>
+								<p>邮箱： ka@pantrysbest.com</p>
+								<p>甜品台专线服务时间： 周一至周五 9：00 - 18：00</p>
+						</div>
+						
+						<div class="col-sm-12 col-xs-12 ">
+							<div class="col-sm-4 col-xs-12 col-sm-offset-4 contantUs_show ">
+								<button type="button" class="btn btn-primary getContant getContantShow" data-toggle="modal" data-target="#mymodal-data1">联系销售</button>
+								<!--弹框-->
+								<div class="modal" id="mymodal-data1" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+								<div class="modal-dialog modal-sm">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+											<h4 class="modal-title">联系我们</h4>
+										</div>
+										<div class="modal-body padding_0">
+											<p class="address text-center">上海/杭州：13764019781</p>
+											<p class="text-center">上海/杭州：13764019781</p>
+											
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+		</div>
+			
+	</div>
+	
+	<div id="footers">
+		
+	</div>
+	</body>
+</html>

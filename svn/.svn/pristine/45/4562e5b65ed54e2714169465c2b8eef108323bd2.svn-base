@@ -1,0 +1,25 @@
+li{
+    list-style: disc;
+   font-weight: bold;
+}
+.link,.link1{
+        color: #4a8937!important;
+    }
+
+.link1{
+    display: none;
+}
+@media only screen and (max-width: 250px) {
+    .link{
+        display: none;
+    }
+    .link1{
+        display: block;
+    }
+}
+
+.main{
+   box-sizing: border-box;
+   padding-top: 70px;
+   padding-bottom: 30px;
+}

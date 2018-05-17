@@ -1,0 +1,34 @@
+body{
+	font: "微软雅黑";
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.select_option{
+	margin-bottom:2%;
+}
+.word_left,.word_right{
+	margin-top: 2.5%;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 2%;
+}
+.margin-left{
+	margin-left: 17px;
+	margin-bottom: 1%;
+}
+.word_bt{
+    background-color: #390c20;
+    font-size: 14pt;
+    height: 35pt;
+    padding-top: 8pt;
+    text-align: center;
+    width: 100%;
+    color: white;
+    !important
+	
+}
+
+
+

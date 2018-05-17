@@ -1,0 +1,114 @@
+body {
+  position: relative;
+}
+#header {
+  width: 100%;
+}
+.header {
+  height: 50px;
+  background: #390C20 !important;
+  margin: 0;
+  position: relative;
+}
+.header .header-logo {
+  padding-top: 11px;
+}
+.header .logo {
+  height: 26px;
+}
+.header .ul-box {
+  display: block;
+}
+.header .ul-box li a {
+  display: block;
+  height: 50px;
+  padding: 15px 10px;
+}
+.down_list {
+  height: 0px;
+  position: absolute;
+  width: 100%;
+  top: 48px;
+  left: 0px;
+  overflow: hidden;
+  background: #390C20;
+}
+.down_list .row div {
+  text-align: center;
+}
+.down_list .row div a {
+  color: white;
+  display: block;
+  font-size: 15px;
+}
+.down_list .row div a i {
+  font-size: 40px;
+}
+.down_list h4 {
+  padding-bottom: 5px;
+  color: white;
+  border-bottom: 2px solid white;
+}
+.header_btn {
+  height: 50px;
+  float: left;
+  display: none;
+  padding-top: 5px;
+}
+.header_btn a {
+  display: block;
+  color: white;
+}
+.header_btn a i {
+  font-size: 30px;
+}
+.header_btn a:hover {
+  color: white;
+}
+.lo-re {
+  display: block;
+}
+.header-rgt-box {
+  display: none;
+  float: right;
+  padding: 10px 0px;
+}
+.header-rgt-box a {
+  padding: 0px 5px;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+}
+.header-rgt-box a i {
+  font-size: 20px;
+}
+.header-rgt-box a:hover {
+  color: white;
+}
+.ul3 {
+  display: none;
+  background: white;
+  padding: 10px 0px;
+  border-top: 1px solid #cccccc;
+}
+.ul3 li {
+  text-align: center;
+}
+.ul3 li a {
+  color: #390C20;
+}
+.ul3 li a i {
+  display: block;
+  font-size: 30px;
+}
+.aaaa {
+  border-radius: 50%;
+  top: 8px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  color: #ffffff;
+  display: none;
+}

@@ -1,0 +1,13 @@
+.content {
+  padding-top: 48px;
+}
+.content .content_box {
+  padding: 50px 0px;
+  border-top: 1px solid #eeeeee;
+}
+.content .content_box ul {
+  text-align: center;
+}
+.content .content_box ul li {
+  display: inline-block;
+}

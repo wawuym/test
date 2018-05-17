@@ -1,0 +1,106 @@
+body {
+  background: url(../img/register/register_10.jpg) repeat;
+  background-size: 100%;
+}
+.main {
+  box-sizing: border-box;
+  padding-top: 105px ;
+  padding-bottom: 100px ;
+  padding-left: 180px !important;
+  padding-right: 180px !important;
+}
+.main input[type="text"],
+.main input[type="password"] {
+  border: none;
+  height: 50px !important;
+  background: #FAFAFA;
+}
+.main button {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 45px;
+}
+.main .error {
+  font-size: 12px;
+}
+.main h3 {
+  border-bottom: 1px solid #9D9D9D;
+  color: white;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.main form {
+  margin-top: 10px;
+}
+.main .checkbox label {
+  font-size: 12px !important;
+  color: white;
+  margin-top: 20px!important;
+}
+.main .code {
+  height: 50px;
+  line-height: 50px;
+  background: wheat;
+  border-radius: 5px;
+  margin: 0px;
+  outline: none;
+  font-size: 19px;
+  color: #390C20 ;
+  display: block;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.main .error {
+  color: red;
+  display: none;
+}
+.main .x {
+  height: 16px;
+  width: 250px;
+}
+.main .ok {
+  width: 40px;
+  height: 40px;
+  background: url(../img/register/icon.png) -205px -403px no-repeat;
+  display: inline-block;
+}
+.main .mm {
+  margin-bottom: 10px;
+}
+.main .main_content {
+  background: rgba(0, 0, 0, 0.5);
+}
+.main .tip {
+  font-size: 10px;
+}
+.main .tippassord {
+  font-size: 10px;
+  color: #B0916A;
+}
+.main .agreement label:hover {
+  color: wheat;
+  border-bottom: 1px solid wheat;
+}
+@media only screen and (min-width: 760px) and (max-width: 1200px) {
+  .main {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+}
+@media only screen and (max-width: 760px) {
+  body {
+    background: url("../img/register/bg.jpg");
+  }
+  .main {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .mm,
+  .add_Padding {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}

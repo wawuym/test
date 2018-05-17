@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>积分商城</title>
+		<meta content="蛋糕,网上订购,生日,派对,红丝绒,纸杯蛋糕" name="keywords">
+		<meta content="派悦坊,非凡创意美味蛋糕、经典纸杯蛋糕、大都会红丝绒蛋糕,均坚持选择纯进口原材料,给生日,派对带来不同惊喜，与朋友们、家人分享独一无二的美味快乐！" name="description">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/import.js" ></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/Integral.css" />
+	</head>
+	</body>
+		<!--头部-->
+		<div id="headers"></div>
+		<!--头部图片-->
+		<img class="img-responsive hidden-xs" src="img/Integral/header_P.jpg">
+		<img class="img-responsive visible-xs" src="img/Integral/header_P_S.jpg">
+		<!--积分文字-->
+		<div class="container Integral">
+			<div class="row Integral_word">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 column Integral_word_left">
+					积分：<span class="B_color">100</span>  等级：普通会员
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 column">
+					亲爱的派迷，感谢您一直的支持和喜爱，我们准备了以下好货，快用积分兑换吧。兑换产品原价满149元，即可在配送区内免费配送哟～
+				</div>
+			</div>	
+
+			<div class="row">
+				<div id="myTab" class="nav nav-tabs mt40" role="tablist">
+				    <div class="active col-lg-6 col-md-6 col-sm-12 col-xs-12 border">
+				    	<a href="#bulletin" role="tab" data-toggle="tab">派家精选</a>
+				    </div>
+				    <div class="active col-lg-6 col-md-6 col-sm-12 col-xs-12 border_3  hidden-xs">
+				    	<a href="#rule" role="tab" data-toggle="tab">合作公司</a>
+				    </div>
+				</div>
+				<!-- 选项卡面板 -->
+				<div id="myTabContent" class="tab-content">
+					<div class="tab-pane active col-lg-12 col-md-12 col-sm-12 col-xs-12  border_2" id="bulletin">
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 border_1">
+							<img src="img/Integral/cont_1.jpg" style="width: 100%;">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 style_word pt10">
+									10元官网礼券
+								</div>
+								<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-12 col-xs-12 style_word pt10">
+									价值：¥10
+								</div>
+								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 style_word pt10">
+									200积分
+								</div>
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt10 style_bt">
+									兑换
+								</div>
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt10">
+									<img src="img/Integral/Hg_H.png">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 border_1">
+							<img src="img/Integral/cont_2.jpg" style="width: 100%;">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 style_word pt10">
+									柠檬纸杯蛋糕
+								</div>
+								<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-12 col-xs-12 style_word pt10">
+									价值：¥25
+								</div>
+								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 style_word pt10">
+									500积分
+								</div>
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt10 style_bt">
+									兑换
+								</div>
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt10">
+									<img src="img/Integral/Hg_H.png">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 border_1">
+							<img src="img/Integral/cont_3.jpg" style="width: 100%;">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 style_word pt10">
+									Q版小书包/零钱包
+								</div>
+								<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-12 col-xs-12 style_word pt10">
+									价值：¥45
+								</div>
+								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 style_word pt10">
+									600积分
+								</div>
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt10 style_bt">
+									兑换
+								</div>
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt10">
+									<img src="img/Integral/Hg_H.png">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 border_1">
+							<img src="img/Integral/cont_4.jpg" style="width: 100%;">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 style_word pt10">
+									6寸保温包
+								</div>
+								<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-12 col-xs-12 style_word pt10">
+									价值：¥45
+								</div>
+								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 style_word pt10">
+									900积分
+								</div>
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt10 style_bt">
+									兑换
+								</div>
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt10">
+									<img src="img/Integral/Hg_H.png">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 border_1">
+							<img src="img/Integral/cont_5.jpg" style="width: 100%;">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 style_word pt10">
+									经典纸杯蛋糕礼盒
+								</div>
+								<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-12 col-xs-12 style_word pt10">
+									价值：¥150
+								</div>
+								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 style_word pt10">
+									3000积分
+								</div>
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt10 style_bt">
+									兑换
+								</div>
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt10">
+									<img src="img/Integral/Hg_S.png">
+								</div>
+							</div>
+						</div>						
+					</div>
+					<div class="tab-pane join mt40" id="rule">暂时还没有合作哦，欢迎加盟</div>
+				</div>
+			</div>
+		</div>
+		<!--尾部-->
+		<div id="footers"></div>
+</div>		
+	</body>
+	<script>
+	   $(function () {
+	      $('#myTab div:eq(1) a').tab('show');
+	   });
+	</script>	
+</html>

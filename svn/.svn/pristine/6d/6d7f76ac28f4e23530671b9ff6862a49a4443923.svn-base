@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="UTF-8">
+		<title>关于派悦坊</title>
+		<meta content="蛋糕,网上订购,生日,派对,红丝绒,纸杯蛋糕" name="keywords">
+		<meta content="派悦坊,非凡创意美味蛋糕、经典纸杯蛋糕、大都会红丝绒蛋糕,均坚持选择纯进口原材料,给生日,派对带来不同惊喜，与朋友们、家人分享独一无二的美味快乐！" name="description">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/import.js"></script>>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/Activity_Pb.css" />
+	</head>
+	<body>
+		<div id="headers"></div>
+		<div id="page-container">
+			<img class="img-responsive hidden-xs" src="img/Activity/Activity_Pb/content_banner.jpg"/>
+			<img class="img-responsive visible-xs" src="img/Activity/Activity_Pb/content_banner_S.jpg">
+			<div class="container center-parent base-recruit-container" id="text-center-container">
+				<div class="col-md-12 col-sm-12 col-xs-12 recruit-container center-child">
+					<div class="col-md-12 col-sm-12 col-xs-12" style="margin-top: 26px;">
+						<h3 class="visible-xs">您好，我是派悦坊</h3>
+						<p>派悦坊的创始人Mark Huetsch 来自美国烘焙世家。毕业于斯坦福计算机系的他，从小学习西点烘焙，并在家族经典烘焙的基础上，以创新、天然和科学的理念，创作梦想的甜品。Mark学习中文期间，遇到了同样热爱甜品的北京姑娘王倞。2009年，两个人在北京共同创立派悦坊，立志要带来“传递喜悦的甜品”。</p>
+						
+						<p>派悦坊的英文名称“Pantry's Best”，中文直译为“厨房的压箱宝”，正是突出派悦坊甜品就像自家厨房的出品一样，能带来令人安心、喜悦的满足感。</p>
+						
+						<p>创立伊始，派悦坊凭借纯正、高品质的派，迅速获得了甜品爱好者们的认可。旅居中国的美国食评家，将派悦坊的产品与纽约米其林星级餐厅的派品相提并论。为了满足中国消费者口味，派悦坊将风靡纽约的纸杯蛋糕、红丝绒蛋糕带来中国，并不断创新，推出裸蛋糕系列、迷你挞系列，以及圣诞惊叹系列。2016年，派悦坊成为华特迪士尼公司高端烘焙食品类中国区官方授权商，推出迪士尼系列甜品，深受喜爱。通过8年的努力，派悦坊团队已经开通北京、天津、上海、杭州四个城市的配送和门店服务，全国团队已经成长至300人。</p>
+						
+						<p>为了保证每一个客人每一次甜蜜体验都是美好而难忘的，派悦坊在采购、制作、服务、零售及配送的每一个环节力求以客人的需求和感受为先，将“派送喜悦”真正送达客人的生活细节里，每个人惬意的下午茶、愉快的生日会、亲密无间的朋友爬梯、甜蜜完美的婚礼、激动人心的产品发布会，派悦坊都和你在一起。</p>
+					</div>
+				</div>
+				<div class="col-md-12 col-sm-12 col-xs-12 page4_content" style="margin-top: 28px;">
+					<div class="row clearfix">
+						<div class="col-md-12">
+							<div class="thumbnail">
+								<img alt="Img5"  class="text-center"src="img/Activity/Activity_Pb/content_1.png" />
+								<div class="caption ">
+									<h3 class="text-center">制作团队</h3>
+									<p  class="text-center" style="text-index:0">制作团队在北京建成中央厨房，上海奉贤建成大型的SC工厂，负责全国多品类产品的制作</p>
+								</div>
+							</div>
+						</div>
+					</div>			
+				</div>
+				<div class="col-md-12 col-sm-12 col-xs-12 page4_content" style="margin-top: 28px;">
+					<div class="row clearfix">
+						<div class="col-md-12">
+							<div class="thumbnail">
+								<img alt="Img5"  class="text-center"src="img/Activity/Activity_Pb/content_2.png" />
+								<div class="caption ">
+									<h3 class="text-center">配送团队</h3>
+									<p  class="text-center" style="text-index:0">配送团队由近百人的司机和配送员组成，负责从制作中心到每一位客人终端的派送，自2016年已经可以实现核心配送区域订单30分钟区间精确送达。</p>
+								</div>
+							</div>
+						</div>
+					</div>			
+				</div>
+				<div class="col-md-12 col-sm-12 col-xs-12 page4_content" style="margin-top: 28px;">
+					<div class="row clearfix">
+						<div class="col-md-12">
+							<div class="thumbnail">
+								<img alt="Img5"  class="text-center"src="img/Activity/Activity_Pb/content_3.png" />
+								<div class="caption ">
+									<h3 class="text-center">体验门店</h3>
+									<p  class="text-center" style="text-index:0">线下体验门店数量在2016年底已经达到9家，北京1家创始门店，1家旗舰店，另有上海5家、天津1家、杭州1家遍布各核心商圈。</p>
+								</div>
+							</div>
+						</div>
+					</div>			
+				</div>
+				<div class="col-md-12 col-sm-12 col-xs-12 page4_content" style="margin-top: 28px;">
+					<div class="row clearfix">
+						<div class="col-md-12">
+							<div class="thumbnail">
+								<img alt="Img5"  class="text-center"src="img/Activity/Activity_Pb/content_4.png" />
+								<div class="caption ">
+									<h3 class="text-center">研发中心</h3>
+									<p  class="text-center" style="text-index:0">派悦坊的全国研发中心在北京和上海作为“派送喜悦”的发动机承担每季新品研发及产品升级的重要职能。</p>
+								</div>
+							</div>
+						</div>
+					</div>			
+				</div>
+				<div class="col-md-12 col-sm-12 col-xs-12 page4_content" style="margin-top: 28px;">
+					<div class="row clearfix">
+						<div class="col-md-12">
+							<div class="thumbnail">
+								<img alt="Img5"  class="text-center"src="img/Activity/Activity_Pb/content_5.png" />
+								<div class="caption ">
+									<h3 class="text-center">服务中心</h3>
+									<p  class="text-center" style="text-index:0">全国客户服务中心负责售前及售后所有订单的咨询和解决方案，为实现“派送喜悦”提供万无一失的保障。</p>
+								</div>
+							</div>
+						</div>
+					</div>			
+				</div>
+			</div>					
+		</div>
+		<div id="footers"></div>
+	</body>
+</html>

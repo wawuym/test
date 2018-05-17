@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=EDGE" />
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="font_649150_vdbaicywran0cnmi/iconfont.css" />
+        <script src="js/import.js"></script>
+        <script src="js/change_mess.js"></script>
+        <link rel="stylesheet" href="css/change_mess.css" />
+		<title>个人信息</title>
+	</head>
+	<body>
+		
+		<!--头部-->
+		<div id="headers"></div>
+		
+		<!--中部-->
+		<div class="container content">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<form role="form">
+						<div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12 center-block">
+						    <label for="name" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">姓名：</label>
+						    <input type="text" class="form-control name col-lg-12 col-md-12 col-sm-12 col-xs-12" id="name" placeholder="请输入2-18个中文字符或英文字母">
+					    </div>
+					    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						    <label for="birth" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">您的生日：</label><br />
+						    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="color: #898989;">金卡，白金卡会员生日当月送惊喜礼券！</div>
+						    <select class="form-control input_text col-xl-4">
+						    	<option value>年</option>
+						    	<option value="2018">2018</option>
+						    	<option value="2017">2017</option>
+						    	<option value="2016">2016</option>
+						    	<option value="2015">2015</option>
+						    	<option value="2014">2014</option>
+						    	<option value="2013">2013</option>
+						    	<option value="2012">2012</option>
+						    	<option value="2011">2011</option>
+						    	<option value="2010">2010</option>
+						    	<option value="2009">2009</option>
+						    	<option value="2008">2008</option>
+						    	<option value="2007">2007</option>
+						    	<option value="2006">2006</option>
+						    	<option value="2005">2005</option>
+						    	<option value="2004">2004</option>
+						    	<option value="2003">2003</option>
+						    	<option value="2002">2002</option>
+						    	<option value="2001">2001</option>
+						    	<option value="2000">2000</option>
+						    </select>
+						    <select class="form-control input_text col-xl-4">
+						    	<option value>月</option>
+						    	<option value="1">1</option>
+						    	<option value="2">2</option>
+						    	<option value="3">3</option>
+						    	<option value="4">4</option>
+						    	<option value="5">5</option>
+						    	<option value="6">6</option>
+						    	<option value="7">7</option>
+						    	<option value="8">8</option>
+						    	<option value="9">9</option>
+						    	<option value="10">10</option>
+						    	<option value="11">11</option>
+						    	<option value="12">12</option>
+						    </select>
+						    <select class="form-control input_text col-xl-4">
+						    	<option value>日</option>
+						    	<option value="1">1</option>
+						    	<option value="2">2</option>
+						    	<option value="3">3</option>
+						    	<option value="4">4</option>
+						    	<option value="5">5</option>
+						    	<option value="6">6</option>
+						    	<option value="7">7</option>
+						    	<option value="8">8</option>
+						    	<option value="9">9</option>
+						    	<option value="10">10</option>
+						    	<option value="11">11</option>
+						    	<option value="12">12</option>
+						    	<option value="13">13</option>
+						    	<option value="14">14</option>
+						    	<option value="15">15</option>
+						    	<option value="16">16</option>
+						    	<option value="17">17</option>
+						    	<option value="18">18</option>
+						    	<option value="19">19</option>
+						    	<option value="20">20</option>
+						    	<option value="21">21</option>
+						    	<option value="22">22</option>
+						    	<option value="23">23</option>
+						    	<option value="24">24</option>
+						    	<option value="25">25</option>
+						    	<option value="26">26</option>
+						    	<option value="27">27</option>
+						    	<option value="28">28</option>
+						    	<option value="29">29</option>
+						    	<option value="30">30</option>
+						    	<option value="31">31</option>
+						    </select>
+					    </div>
+					    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						    <label for="two_birth" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">您的两位亲友的生日：</label><br />
+						    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="color: #898989;">金卡，白金卡会员生日当月送惊喜礼券！</div>
+						    <label for="one" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">第一位：</label>
+						    <select class="form-control input_text col-xl-4">
+						    	<option value>年</option>
+						    	<option value="2018">2018</option>
+						    	<option value="2017">2017</option>
+						    	<option value="2016">2016</option>
+						    	<option value="2015">2015</option>
+						    	<option value="2014">2014</option>
+						    	<option value="2013">2013</option>
+						    	<option value="2012">2012</option>
+						    	<option value="2011">2011</option>
+						    	<option value="2010">2010</option>
+						    	<option value="2009">2009</option>
+						    	<option value="2008">2008</option>
+						    	<option value="2007">2007</option>
+						    	<option value="2006">2006</option>
+						    	<option value="2005">2005</option>
+						    	<option value="2004">2004</option>
+						    	<option value="2003">2003</option>
+						    	<option value="2002">2002</option>
+						    	<option value="2001">2001</option>
+						    	<option value="2000">2000</option>
+						    </select>
+						    <select class="form-control input_text col-xl-4">
+						    	<option value>月</option>
+						    	<option value="1">1</option>
+						    	<option value="2">2</option>
+						    	<option value="3">3</option>
+						    	<option value="4">4</option>
+						    	<option value="5">5</option>
+						    	<option value="6">6</option>
+						    	<option value="7">7</option>
+						    	<option value="8">8</option>
+						    	<option value="9">9</option>
+						    	<option value="10">10</option>
+						    	<option value="11">11</option>
+						    	<option value="12">12</option>
+						    </select>
+						    <select class="form-control input_text col-xl-4">
+						    	<option value>日</option>
+						    	<option value="1">1</option>
+						    	<option value="2">2</option>
+						    	<option value="3">3</option>
+						    	<option value="4">4</option>
+						    	<option value="5">5</option>
+						    	<option value="6">6</option>
+						    	<option value="7">7</option>
+						    	<option value="8">8</option>
+						    	<option value="9">9</option>
+						    	<option value="10">10</option>
+						    	<option value="11">11</option>
+						    	<option value="12">12</option>
+						    	<option value="13">13</option>
+						    	<option value="14">14</option>
+						    	<option value="15">15</option>
+						    	<option value="16">16</option>
+						    	<option value="17">17</option>
+						    	<option value="18">18</option>
+						    	<option value="19">19</option>
+						    	<option value="20">20</option>
+						    	<option value="21">21</option>
+						    	<option value="22">22</option>
+						    	<option value="23">23</option>
+						    	<option value="24">24</option>
+						    	<option value="25">25</option>
+						    	<option value="26">26</option>
+						    	<option value="27">27</option>
+						    	<option value="28">28</option>
+						    	<option value="29">29</option>
+						    	<option value="30">30</option>
+						    	<option value="31">31</option>
+						    </select><br />
+						    <label for="two" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">第二位：</label>
+						    <select class="form-control input_text col-xl-4">
+						    	<option value>年</option>
+						    	<option value="2018">2018</option>
+						    	<option value="2017">2017</option>
+						    	<option value="2016">2016</option>
+						    	<option value="2015">2015</option>
+						    	<option value="2014">2014</option>
+						    	<option value="2013">2013</option>
+						    	<option value="2012">2012</option>
+						    	<option value="2011">2011</option>
+						    	<option value="2010">2010</option>
+						    	<option value="2009">2009</option>
+						    	<option value="2008">2008</option>
+						    	<option value="2007">2007</option>
+						    	<option value="2006">2006</option>
+						    	<option value="2005">2005</option>
+						    	<option value="2004">2004</option>
+						    	<option value="2003">2003</option>
+						    	<option value="2002">2002</option>
+						    	<option value="2001">2001</option>
+						    	<option value="2000">2000</option>
+						    </select>
+						    <select class="form-control input_text col-xl-4">
+						    	<option value>月</option>
+						    	<option value="1">1</option>
+						    	<option value="2">2</option>
+						    	<option value="3">3</option>
+						    	<option value="4">4</option>
+						    	<option value="5">5</option>
+						    	<option value="6">6</option>
+						    	<option value="7">7</option>
+						    	<option value="8">8</option>
+						    	<option value="9">9</option>
+						    	<option value="10">10</option>
+						    	<option value="11">11</option>
+						    	<option value="12">12</option>
+						    </select>
+						    <select class="form-control input_text col-xl-4">
+						    	<option value>日</option>
+						    	<option value="1">1</option>
+						    	<option value="2">2</option>
+						    	<option value="3">3</option>
+						    	<option value="4">4</option>
+						    	<option value="5">5</option>
+						    	<option value="6">6</option>
+						    	<option value="7">7</option>
+						    	<option value="8">8</option>
+						    	<option value="9">9</option>
+						    	<option value="10">10</option>
+						    	<option value="11">11</option>
+						    	<option value="12">12</option>
+						    	<option value="13">13</option>
+						    	<option value="14">14</option>
+						    	<option value="15">15</option>
+						    	<option value="16">16</option>
+						    	<option value="17">17</option>
+						    	<option value="18">18</option>
+						    	<option value="19">19</option>
+						    	<option value="20">20</option>
+						    	<option value="21">21</option>
+						    	<option value="22">22</option>
+						    	<option value="23">23</option>
+						    	<option value="24">24</option>
+						    	<option value="25">25</option>
+						    	<option value="26">26</option>
+						    	<option value="27">27</option>
+						    	<option value="28">28</option>
+						    	<option value="29">29</option>
+						    	<option value="30">30</option>
+						    	<option value="31">31</option>
+						    </select>
+					    </div>
+					    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12 center-block">
+						    <label for="name" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">您常用的电子邮箱：</label>
+						    <input type="text" class="form-control email col-lg-12 col-md-12 col-sm-12 col-xs-12" id="email">
+					    </div>
+					    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12 center-block">
+						    <label for="name" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">您常用的收件地址：</label>
+						    <input type="text" class="form-control add col-lg-12 col-md-12 col-sm-12 col-xs-12" id="add">
+					    </div>
+					    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12 center-block">
+						    <label for="name" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">您常用的收件地址邮政编码：</label>
+						    <input type="text" class="form-control ma col-lg-12 col-md-12 col-sm-12 col-xs-12" id="ma">
+					    </div>
+					    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12 center-block">
+						    <label for="name" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">您的特殊要求：</label>
+						    <input type="text" class="form-control sp col-lg-12 col-md-12 col-sm-12 col-xs-12" id="sp">
+					    </div>
+					</form>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="save center-block">保存</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+		
+		<!--尾部-->
+		<div id="footers"></div>
+		
+	</body>
+</html>

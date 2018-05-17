@@ -1,0 +1,42 @@
+h3{
+    display: inline-block !important;
+    margin-right: 10px;
+   img{
+        padding-left: 40px;     
+    } 
+    
+}
+.hot_line{
+    font-size: 18px;
+    color: rgb(130, 196, 17);
+    display: inline-block;
+   
+    
+}
+li{
+    list-style: circle;
+}
+h6{
+    font-size: 14px;
+   font-weight: bold;
+}
+li,p,h6{
+    color:rgb(51, 0, 0) !important;    font-family:"SimHei";
+   
+}
+.phoneIcon01{
+    display: none;
+    vertical-align: middle;
+}
+@media only screen and (max-width: 768px) {
+        .phoneIcon{
+            display: none;
+        }
+        .phoneIcon01{
+            display: block;
+        }
+}
+.main{
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-bottom: 20px;
